@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "zavvyfeatures:block/poke_spawner_top",
+    "down": "zavvyfeatures:block/poke_spawner_bottom",
+    "south": "zavvyfeatures:block/poke_spawner_back",
+    "north": "zavvyfeatures:block/poke_spawner_front",
+    "west": "zavvyfeatures:block/poke_spawner_side",
+    "east": "zavvyfeatures:block/poke_spawner_side",
+    "particle": "zavvyfeatures:block/poke_spawner_bottom"
+  }
+}

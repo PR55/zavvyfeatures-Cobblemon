@@ -1,0 +1,20 @@
+{
+  "egg_use":{
+    "subtitle": "sounds.zavvyfeatures.egg_use",
+    "sounds": [
+      "zavvyfeatures:egg_use"
+    ]
+  },
+  "egg_deny": {
+    "subtitle": "sounds.zavvyfeatures.egg_deny",
+    "sounds": [
+        "zavvyfeatures:egg_deny"
+    ]
+  },
+  "egg_ready": {
+    "subtitle": "sounds.zavvyfeatures.egg_ready",
+    "sounds": [
+      "zavvyfeatures:egg_ready"
+    ]
+  }
+}
