@@ -11,28 +11,28 @@ import net.minecraft.util.Identifier;
 import com.pr55.zavvyfeatures.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Zavvyfeatures.MOD_ID,"pink_garnet_items"),
-            FabricItemGroup.builder()
-                    .icon(() -> new ItemStack((ModItems.PINK_GARNET)))
-                    .displayName(Text.translatable("itemgroup.zavvyfeatures.pink_garnet_items"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModItems.PINK_GARNET);
-                        entries.add(ModItems.RAW_PINK_GARNET);
-                    }).build());
-
-
-    public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Zavvyfeatures.MOD_ID,"pink_garnet_blocks"),
-            FabricItemGroup.builder()
-                    .icon(() -> new ItemStack((ModBlocks.PINK_GARNET_BLOCK)))
-                    .displayName(Text.translatable("itemgroup.zavvyfeatures.pink_garnet_blocks"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.PINK_GARNET_BLOCK);
-                        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-                        entries.add(ModBlocks.PINK_GARNET_ORE);
-                        entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
-                    }).build());
+//    public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+//            Identifier.of(Zavvyfeatures.MOD_ID,"pink_garnet_items"),
+//            FabricItemGroup.builder()
+//                    .icon(() -> new ItemStack((ModItems.PINK_GARNET)))
+//                    .displayName(Text.translatable("itemgroup.zavvyfeatures.pink_garnet_items"))
+//                    .entries((displayContext, entries) -> {
+//                        entries.add(ModItems.PINK_GARNET);
+//                        entries.add(ModItems.RAW_PINK_GARNET);
+//                    }).build());
+//
+//
+//    public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+//            Identifier.of(Zavvyfeatures.MOD_ID,"pink_garnet_blocks"),
+//            FabricItemGroup.builder()
+//                    .icon(() -> new ItemStack((ModBlocks.PINK_GARNET_BLOCK)))
+//                    .displayName(Text.translatable("itemgroup.zavvyfeatures.pink_garnet_blocks"))
+//                    .entries((displayContext, entries) -> {
+//                        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+//                        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+//                        entries.add(ModBlocks.PINK_GARNET_ORE);
+//                        entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+//                    }).build());
 
 
     public static final ItemGroup DUMMY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -41,7 +41,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack((ModItems.EGG_ITEM_COMMON)))
                     .displayName(Text.translatable("itemgroup.zavvyfeatures.dummy_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.TROLL_FACE_POINT);
+//                        entries.add(ModItems.TROLL_FACE_POINT);
                         entries.add(ModItems.EGG_ITEM_COMMON);
                         entries.add(ModItems.EGG_ITEM_UNCOMMON);
                         entries.add(ModItems.EGG_ITEM_RARE);
@@ -50,9 +50,12 @@ public class ModItemGroups {
                         entries.add(ModItems.EGG_ITEM_TOGEPI);
                         entries.add(ModItems.EGG_ITEM_PICHU);
                         entries.add(ModBlocks.poke_block);
-//                        entries.add(ModItems.EGG_UPGRADE_ITEM);
-//                        entries.add(ModBlocks.EEVEE_BACKPACK);
-//                        entries.add(ModItems.EEVEE_BACKPACK);
+                        entries.add(ModItems.SPAWNER_WRENCH);
+
+                        entries.add(ModItems.JAMES_HELMET);
+                        entries.add(ModItems.JAMES_CHESTPLATE);
+                        entries.add(ModItems.JAMES_LEGGINGS);
+                        entries.add(ModItems.JAMES_BOOTS);
                     }).build());
     public static final ItemGroup POKE_TOKENS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Zavvyfeatures.MOD_ID,"poke_tokens"),

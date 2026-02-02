@@ -14,20 +14,20 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-
-    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
-
-    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
-
-    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
+//    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+//
+//    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
+//
+//    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
+//
+//    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
 
     public static final Block poke_block = registerBlock("poke_spawner",
-            new pokeSpawner(AbstractBlock.Settings.create().strength(6f).sounds(BlockSoundGroup.STONE)));
+            new pokeSpawner(AbstractBlock.Settings.create().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);

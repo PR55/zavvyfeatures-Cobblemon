@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -16,18 +17,18 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_BLOCK);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TROLL_FACE_POINT, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.TROLL_FACE_POINT, Models.GENERATED);
 
         // Eggs
         itemModelGenerator.register(ModItems.EGG_ITEM_COMMON, Models.GENERATED);
@@ -78,5 +79,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPRIG_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.COCO_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.QUAX_TOKEN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SPAWNER_WRENCH, Models.GENERATED);
+        // Work on mod entity blocks up next
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_BOOTS);
+
     }
 }

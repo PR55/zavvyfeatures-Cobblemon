@@ -3,6 +3,7 @@ package com.pr55.zavvyfeatures.item;
 import com.pr55.zavvyfeatures.Zavvyfeatures;
 import com.pr55.zavvyfeatures.item.custom.*;
 import com.pr55.zavvyfeatures.sound.ModSounds;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -10,9 +11,9 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item PINK_GARNET = registerItem("pink_garnet",new Item(new Item.Settings()));
-    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",new Item(new Item.Settings()));
-    public static final Item TROLL_FACE_POINT = registerItem("troll_face_point",new Item(new Item.Settings().maxCount(1)));
+//    public static final Item PINK_GARNET = registerItem("pink_garnet",new Item(new Item.Settings()));
+//    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",new Item(new Item.Settings()));
+//    public static final Item TROLL_FACE_POINT = registerItem("troll_face_point",new Item(new Item.Settings().maxCount(1)));
     // Pokemon Tokens
     //Gen 1
     public static final Item BULBA_TOKEN = registerItem("bulba_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
@@ -64,6 +65,22 @@ public class ModItems {
     public static final Item EGG_ITEM_TOGEPI= registerItem("egg_item_togepi",new togepiEgg(new Item.Settings().maxCount(1)));
     public static final Item EGG_ITEM_PICHU= registerItem("egg_item_pichu",new pichuEgg(new Item.Settings().maxCount(1)));
 
+    // Tools
+    public static final Item SPAWNER_WRENCH = registerItem("spawner_wrench", new wrenchItem(new Item.Settings().maxCount(1)));
+
+    // Coins
+
+    // Armor
+
+        // James
+    public static final Item JAMES_HELMET = registerItem("james_helmet_zavvy",
+                new JamesRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_CHESTPLATE = registerItem("james_chestplate_zavvy",
+            new JamesRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_LEGGINGS = registerItem("james_leggings_zavvy",
+            new JamesRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_BOOTS = registerItem("james_boots_zavvy",
+            new JamesRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Zavvyfeatures.MOD_ID,name), item);

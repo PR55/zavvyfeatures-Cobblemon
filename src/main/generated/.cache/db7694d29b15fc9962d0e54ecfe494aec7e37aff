@@ -1,5 +1,2 @@
-// 1.21.1	2026-01-20T19:47:13.232426	zavvyfeatures/Block Loot Tables
-9f1c299e706995246ce06b5360a8fc802e43d8c6 data\zavvyfeatures\loot_table\blocks\pink_garnet_block.json
-e0b3b9296735e91c9974b8053fc670cc1efdf5f2 data\zavvyfeatures\loot_table\blocks\pink_garnet_deepslate_ore.json
-8b18caa729ee66232a66b55d4677684d98d7df2a data\zavvyfeatures\loot_table\blocks\raw_pink_garnet_block.json
-772a0ecd479371f298b83bfc8071a6eb9b650a84 data\zavvyfeatures\loot_table\blocks\pink_garnet_ore.json
+// 1.21.1	2026-02-02T17:54:09.7010362	zavvyfeatures/Block Loot Tables
+dfb04c301fc84fa6c1ef813515fd10e116ca547f data\zavvyfeatures\loot_table\blocks\poke_spawner.json

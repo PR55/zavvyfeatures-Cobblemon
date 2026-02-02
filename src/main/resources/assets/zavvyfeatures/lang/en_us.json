@@ -12,7 +12,7 @@
 
   "itemgroup.zavvyfeatures.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.zavvyfeatures.pink_garnet_blocks": "Pink Garnet Blocks",
-  "itemgroup.zavvyfeatures.dummy_items": "Test Items",
+  "itemgroup.zavvyfeatures.dummy_items": "Egg/Spawning Items",
 
   "item.zavvyfeatures.egg_item_base": "Mystery Egg",
   "tooltip.zavvyfeatures.egg_item_base.tooltip": "Mystery Egg Test",
@@ -50,7 +50,7 @@
   "item.zavvyfeatures.togi_token":"Togepi Token",
   "item.zavvyfeatures.pichu_token":"Pichu Token",
 
-  "item.zavvyfeatures.tree_token":"Treeko Token",
+  "item.zavvyfeatures.tree_token":"Treecko Token",
   "item.zavvyfeatures.tor_token":"Torchic Token",
   "item.zavvyfeatures.kip_token":"Mudkip Token",
 
@@ -66,7 +66,7 @@
   "item.zavvyfeatures.fenne_token":"Fennekin Token",
   "item.zavvyfeatures.froak_token":"Froakie Token",
 
-  "item.zavvyfeatures.row_token":"Rowlett Token",
+  "item.zavvyfeatures.row_token":"Rowlet Token",
   "item.zavvyfeatures.lit_token":"Litten Token",
   "item.zavvyfeatures.pop_token":"Popplio Token",
 
@@ -83,6 +83,12 @@
   "item.zavvyfeatures.hisui_token": "Hisuian Form",
 
   "block.zavvyfeatures.poke_spawner": "Token Spawner",
+  "item.zavvyfeatures.spawner_wrench": "Poke Spawner Wrench",
+
+  "item.zavvyfeatures.james_helmet_zavvy": "Rocket Helmet (James)",
+  "item.zavvyfeatures.james_chestplate_zavvy": "Rocket Chestplate (James)",
+  "item.zavvyfeatures.james_leggings_zavvy": "Rocket Leggings (James)",
+  "item.zavvyfeatures.james_boots_zavvy": "Rocket Boots (James)",
 
   "zavvyfeatures.error.contact": "A fatal error has occured with the command, please press your screenshot key with the chat open and send the screenshot to PR55 in a dm on discord. Send with your minecraft username if this occurred on Zavvy's server! PR55(pr55)"
 }

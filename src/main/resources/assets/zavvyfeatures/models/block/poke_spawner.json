@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "up": "zavvyfeatures:block/poke_spawner_top",
+    "up": "zavvyfeatures:block/poke_spawner_bottom",
     "down": "zavvyfeatures:block/poke_spawner_bottom",
-    "south": "zavvyfeatures:block/poke_spawner_back",
-    "north": "zavvyfeatures:block/poke_spawner_front",
-    "west": "zavvyfeatures:block/poke_spawner_side",
-    "east": "zavvyfeatures:block/poke_spawner_side",
+    "south": "zavvyfeatures:block/poke_spawner_bottom",
+    "north": "zavvyfeatures:block/poke_spawner_bottom",
+    "west": "zavvyfeatures:block/poke_spawner_bottom",
+    "east": "zavvyfeatures:block/poke_spawner_bottom",
     "particle": "zavvyfeatures:block/poke_spawner_bottom"
   }
 }

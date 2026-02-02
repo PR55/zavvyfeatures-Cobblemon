@@ -9,7 +9,7 @@ public class togepiEgg extends EggItemPoke {
 
     public togepiEgg(Settings settings) {
         super(settings);
-        this.SHINY_CHANCE = 8192;
+        this.SHINY_CHANCE = 2048;
         this.ACTIVATE_GUIDE = "tooltip.zavvyfeatures.egg_item_togepi.tooltip";
         this.tokens = new ArrayList<>();
         this.tokens.add(ModItems.TOGI_TOKEN);
