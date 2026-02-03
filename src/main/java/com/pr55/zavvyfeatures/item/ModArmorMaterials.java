@@ -3,7 +3,6 @@ package com.pr55.zavvyfeatures.item;
 import com.pr55.zavvyfeatures.Zavvyfeatures;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;
@@ -22,11 +21,11 @@ public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> JAMES_ROCKET_MATERIAL = registerArmorMaterial("james_rocket",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 2);
-                map.put(ArmorItem.Type.LEGGINGS, 4);
+                map.put(ArmorItem.Type.LEGGINGS, 5);
                 map.put(ArmorItem.Type.CHESTPLATE, 6);
                 map.put(ArmorItem.Type.HELMET, 2);
-                map.put(ArmorItem.Type.BODY, 4);
-            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.BEDROCK),
+                map.put(ArmorItem.Type.BODY, 5);
+            }), 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.BEDROCK),
                     List.of(new ArmorMaterial.Layer(Identifier.of(Zavvyfeatures.MOD_ID, "james_rocket"))), 0,0));
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material){
