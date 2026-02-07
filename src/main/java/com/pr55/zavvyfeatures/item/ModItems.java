@@ -136,6 +136,81 @@ public class ModItems {
             new JamesRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
     public static final Item JAMES_BOOTS = registerItem("james_boots_zavvy",
             new JamesRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_HELMET_ALT1 = registerItem("james_helmet_zavvy_alt1",
+            new JamesRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_CHESTPLATE_ALT1 = registerItem("james_chestplate_zavvy_alt1",
+            new JamesRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_LEGGINGS_ALT1 = registerItem("james_leggings_zavvy_alt1",
+            new JamesRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_BOOTS_ALT1 = registerItem("james_boots_zavvy_alt1",
+            new JamesRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_HELMET_ALT2 = registerItem("james_helmet_zavvy_alt2",
+            new JamesRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_CHESTPLATE_ALT2 = registerItem("james_chestplate_zavvy_alt2",
+            new JamesRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_LEGGINGS_ALT2 = registerItem("james_leggings_zavvy_alt2",
+            new JamesRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_BOOTS_ALT2 = registerItem("james_boots_zavvy_alt2",
+            new JamesRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_HELMET_ALT3 = registerItem("james_helmet_zavvy_alt3",
+            new JamesRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_CHESTPLATE_ALT3 = registerItem("james_chestplate_zavvy_alt3",
+            new JamesRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_LEGGINGS_ALT3 = registerItem("james_leggings_zavvy_alt3",
+            new JamesRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_BOOTS_ALT3 = registerItem("james_boots_zavvy_alt3",
+            new JamesRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_HELMET_ALT4 = registerItem("james_helmet_zavvy_alt4",
+            new JamesRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_CHESTPLATE_ALT4 = registerItem("james_chestplate_zavvy_alt4",
+            new JamesRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_LEGGINGS_ALT4 = registerItem("james_leggings_zavvy_alt4",
+            new JamesRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JAMES_BOOTS_ALT4 = registerItem("james_boots_zavvy_alt4",
+            new JamesRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+
+    // Jessie
+    public static final Item JESSIE_HELMET = registerItem("jessie_helmet_zavvy",
+            new JessieRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_CHESTPLATE = registerItem("jessie_chestplate_zavvy",
+            new JessieRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_LEGGINGS = registerItem("jessie_leggings_zavvy",
+            new JessieRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_BOOTS = registerItem("jessie_boots_zavvy",
+            new JessieRocketItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_HELMET_ALT1 = registerItem("jessie_helmet_zavvy_alt1",
+            new JessieRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_CHESTPLATE_ALT1 = registerItem("jessie_chestplate_zavvy_alt1",
+            new JessieRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_LEGGINGS_ALT1 = registerItem("jessie_leggings_zavvy_alt1",
+            new JessieRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_BOOTS_ALT1 = registerItem("jessie_boots_zavvy_alt1",
+            new JessieRocketItemAlt1(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_HELMET_ALT2 = registerItem("jessie_helmet_zavvy_alt2",
+            new JessieRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_CHESTPLATE_ALT2 = registerItem("jessie_chestplate_zavvy_alt2",
+            new JessieRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_LEGGINGS_ALT2 = registerItem("jessie_leggings_zavvy_alt2",
+            new JessieRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_BOOTS_ALT2 = registerItem("jessie_boots_zavvy_alt2",
+            new JessieRocketItemAlt2(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_HELMET_ALT3 = registerItem("jessie_helmet_zavvy_alt3",
+            new JessieRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_CHESTPLATE_ALT3 = registerItem("jessie_chestplate_zavvy_alt3",
+            new JessieRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_LEGGINGS_ALT3 = registerItem("jessie_leggings_zavvy_alt3",
+            new JessieRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_BOOTS_ALT3 = registerItem("jessie_boots_zavvy_alt3",
+            new JessieRocketItemAlt3(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_HELMET_ALT4 = registerItem("jessie_helmet_zavvy_alt4",
+            new JessieRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_CHESTPLATE_ALT4 = registerItem("jessie_chestplate_zavvy_alt4",
+            new JessieRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_LEGGINGS_ALT4 = registerItem("jessie_leggings_zavvy_alt4",
+            new JessieRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JESSIE_BOOTS_ALT4 = registerItem("jessie_boots_zavvy_alt4",
+            new JessieRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Zavvyfeatures.MOD_ID,name), item);

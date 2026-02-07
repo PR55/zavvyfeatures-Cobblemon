@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_netherite_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "zavvyfeatures:item/jessie_boots_zavvy_alt2_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "zavvyfeatures:item/jessie_boots_zavvy_alt2"
+  }
+}

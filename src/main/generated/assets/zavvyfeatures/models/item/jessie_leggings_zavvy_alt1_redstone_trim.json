@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "zavvyfeatures:item/jessie_leggings_zavvy_alt1",
+    "layer1": "minecraft:trims/items/leggings_trim_redstone"
+  }
+}

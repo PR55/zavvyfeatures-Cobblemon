@@ -56,6 +56,43 @@ public class ModItemGroups {
                         entries.add(ModItems.JAMES_CHESTPLATE);
                         entries.add(ModItems.JAMES_LEGGINGS);
                         entries.add(ModItems.JAMES_BOOTS);
+                        entries.add(ModItems.JAMES_HELMET_ALT1);
+                        entries.add(ModItems.JAMES_CHESTPLATE_ALT1);
+                        entries.add(ModItems.JAMES_LEGGINGS_ALT1);
+                        entries.add(ModItems.JAMES_BOOTS_ALT1);
+                        entries.add(ModItems.JAMES_HELMET_ALT2);
+                        entries.add(ModItems.JAMES_CHESTPLATE_ALT2);
+                        entries.add(ModItems.JAMES_LEGGINGS_ALT2);
+                        entries.add(ModItems.JAMES_BOOTS_ALT2);
+                        entries.add(ModItems.JAMES_HELMET_ALT3);
+                        entries.add(ModItems.JAMES_CHESTPLATE_ALT3);
+                        entries.add(ModItems.JAMES_LEGGINGS_ALT3);
+                        entries.add(ModItems.JAMES_BOOTS_ALT3);
+                        entries.add(ModItems.JAMES_HELMET_ALT4);
+                        entries.add(ModItems.JAMES_CHESTPLATE_ALT4);
+                        entries.add(ModItems.JAMES_LEGGINGS_ALT4);
+                        entries.add(ModItems.JAMES_BOOTS_ALT4);
+
+                        entries.add(ModItems.JESSIE_HELMET);
+                        entries.add(ModItems.JESSIE_CHESTPLATE);
+                        entries.add(ModItems.JESSIE_LEGGINGS);
+                        entries.add(ModItems.JESSIE_BOOTS);
+                        entries.add(ModItems.JESSIE_HELMET_ALT1);
+                        entries.add(ModItems.JESSIE_CHESTPLATE_ALT1);
+                        entries.add(ModItems.JESSIE_LEGGINGS_ALT1);
+                        entries.add(ModItems.JESSIE_BOOTS_ALT1);
+                        entries.add(ModItems.JESSIE_HELMET_ALT2);
+                        entries.add(ModItems.JESSIE_CHESTPLATE_ALT2);
+                        entries.add(ModItems.JESSIE_LEGGINGS_ALT2);
+                        entries.add(ModItems.JESSIE_BOOTS_ALT2);
+                        entries.add(ModItems.JESSIE_HELMET_ALT3);
+                        entries.add(ModItems.JESSIE_CHESTPLATE_ALT3);
+                        entries.add(ModItems.JESSIE_LEGGINGS_ALT3);
+                        entries.add(ModItems.JESSIE_BOOTS_ALT3);
+                        entries.add(ModItems.JESSIE_HELMET_ALT4);
+                        entries.add(ModItems.JESSIE_CHESTPLATE_ALT4);
+                        entries.add(ModItems.JESSIE_LEGGINGS_ALT4);
+                        entries.add(ModItems.JESSIE_BOOTS_ALT4);
                     }).build());
     public static final ItemGroup POKE_TOKENS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Zavvyfeatures.MOD_ID,"poke_tokens"),

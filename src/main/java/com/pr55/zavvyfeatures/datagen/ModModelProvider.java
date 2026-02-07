@@ -143,5 +143,50 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_BOOTS);
 
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET_ALT1);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE_ALT1);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS_ALT1);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_BOOTS_ALT1);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET_ALT2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE_ALT2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS_ALT2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_BOOTS_ALT2);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET_ALT3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE_ALT3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS_ALT3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_BOOTS_ALT3);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET_ALT4);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE_ALT4);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS_ALT4);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_BOOTS_ALT4);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_BOOTS);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_HELMET_ALT1);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_CHESTPLATE_ALT1);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_LEGGINGS_ALT1);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_BOOTS_ALT1);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_HELMET_ALT2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_CHESTPLATE_ALT2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_LEGGINGS_ALT2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_BOOTS_ALT2);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_HELMET_ALT3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_CHESTPLATE_ALT3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_LEGGINGS_ALT3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_BOOTS_ALT3);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_HELMET_ALT4);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_CHESTPLATE_ALT4);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_LEGGINGS_ALT4);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_BOOTS_ALT4);
+
     }
 }
