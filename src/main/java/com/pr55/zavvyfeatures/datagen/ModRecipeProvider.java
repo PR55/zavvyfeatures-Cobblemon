@@ -22,6 +22,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
+        // Left for reference until new recipes are made
 //        List<ItemConvertible> PINK_GARNET_SMELTABLES = List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE,
 //                ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 //

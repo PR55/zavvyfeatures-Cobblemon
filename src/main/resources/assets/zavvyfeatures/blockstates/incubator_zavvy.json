@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "itemcontained=0": {
+      "model": "zavvyfeatures:block/incubator_zavvy"
+    },
+    "itemcontained=1": {
+      "model": "zavvyfeatures:block/incubator_zavvy_on"
+    }
+  }
+}

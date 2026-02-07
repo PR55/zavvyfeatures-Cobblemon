@@ -36,14 +36,21 @@ public class ModItemGroups {
 
 
     public static final ItemGroup DUMMY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Zavvyfeatures.MOD_ID,"dummy_items"),
+            Identifier.of(Zavvyfeatures.MOD_ID,"admin_items"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack((ModItems.EGG_ITEM_COMMON)))
-                    .displayName(Text.translatable("itemgroup.zavvyfeatures.dummy_items"))
+                    .icon(() -> new ItemStack((ModBlocks.poke_block)))
+                    .displayName(Text.translatable("itemgroup.zavvyfeatures.admin_items"))
                     .entries((displayContext, entries) -> {
 //                        entries.add(ModItems.TROLL_FACE_POINT);
+                        entries.add(ModBlocks.incubator);
                         entries.add(ModBlocks.poke_block);
                         entries.add(ModItems.SPAWNER_WRENCH);
+
+                        entries.add(ModItems.COPPER_COIN);
+                        entries.add(ModItems.IROM_COIN);
+                        entries.add(ModItems.GOLD_COIN);
+                        entries.add(ModItems.DIAMOND_COIN);
+                        entries.add(ModItems.EMERALD_COIN);
 
                         entries.add(ModItems.JAMES_HELMET);
                         entries.add(ModItems.JAMES_CHESTPLATE);
@@ -53,8 +60,8 @@ public class ModItemGroups {
     public static final ItemGroup POKE_TOKENS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Zavvyfeatures.MOD_ID,"poke_tokens"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack((ModItems.CHIK_TOKEN)))
-                    .displayName(Text.translatable("itemgroup.zavvyfeatures.dummy_items"))
+                    .icon(() -> new ItemStack((ModItems.EGG_ITEM_COMMON)))
+                    .displayName(Text.translatable("itemgroup.zavvyfeatures.egg_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.EGG_ITEM_COMMON);
                         entries.add(ModItems.EGG_ITEM_UNCOMMON);
@@ -143,7 +150,7 @@ public class ModItemGroups {
                     Identifier.of(Zavvyfeatures.MOD_ID,"poke_ride_tokens"),
                     FabricItemGroup.builder()
                     .icon(() -> new ItemStack((ModItems.AERODA_TOKEN)))
-                    .displayName(Text.translatable("itemgroup.zavvyfeatures.dummy_items"))
+                    .displayName(Text.translatable("itemgroup.zavvyfeatures.ride_items"))
                     .entries((displayContext, entries) -> {
 
                         // Gen 1

@@ -3,6 +3,7 @@ package com.pr55.zavvyfeatures;
 import com.cobblemon.mod.common.api.events.CobblemonEvents;
 import com.cobblemon.mod.common.api.events.battles.BattleVictoryEvent;
 import com.pr55.zavvyfeatures.block.ModBlocks;
+import com.pr55.zavvyfeatures.block.entity.ModBlockEntities;
 import com.pr55.zavvyfeatures.component.ModDataComponentTypes;
 import com.pr55.zavvyfeatures.effect.ModEffects;
 import com.pr55.zavvyfeatures.item.ModItemGroups;
@@ -37,7 +38,6 @@ public class Zavvyfeatures implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
@@ -48,11 +48,15 @@ public class Zavvyfeatures implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModBlockEntities.registerBlockEntities();
+
 		ModDataComponentTypes.registerDataComponentTypes();
 		ModSounds.registerSounds();
+
 
 //		ModEffects.registerEffects();
 

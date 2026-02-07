@@ -1,6 +1,7 @@
 package com.pr55.zavvyfeatures.item;
 
 import com.pr55.zavvyfeatures.Zavvyfeatures;
+import com.pr55.zavvyfeatures.component.ModDataComponentTypes;
 import com.pr55.zavvyfeatures.item.custom.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
@@ -79,7 +80,7 @@ public class ModItems {
     public static final Item GROO_TOKEN = registerItem("groo_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item SCOR_TOKEN = registerItem("scor_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item SOB_TOKEN = registerItem("sob_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
-    public static final Item SNEASE_TOKEN = registerItem("snease_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
+    public static final Item SNEASE_TOKEN = registerItem("snease_token", new PokeToken(new Item.Settings().maxCount(1).component(ModDataComponentTypes.HISUIAN, true))); // Done
     public static final Item TOX_TOKEN = registerItem("tox_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     // Gen 9
     public static final Item SPRIG_TOKEN = registerItem("sprig_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
@@ -94,30 +95,35 @@ public class ModItems {
     public static final Item EGG_ITEM_LEGENDARY= registerItem("egg_item_legendary",new legendaryEgg(new Item.Settings().maxCount(1)));
     public static final Item EGG_ITEM_TOGEPI= registerItem("egg_item_togepi",new togepiEgg(new Item.Settings().maxCount(1)));
     public static final Item EGG_ITEM_PICHU= registerItem("egg_item_pichu",new pichuEgg(new Item.Settings().maxCount(1)));
-
-    public static final Item EGG_ITEM_AZURILL = registerItem("egg_item_azurill",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_BONSLY = registerItem("egg_item_bonsly",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_BUDEW = registerItem("egg_item_budew",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_CHINGLING = registerItem("egg_item_chingling",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_CLEFFA = registerItem("egg_item_cleffa",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_ELEKID = registerItem("egg_item_elekid",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_HAPPINY = registerItem("egg_item_happiny",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_IGGLYBUFF = registerItem("egg_item_igglybuff",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_MAGBY = registerItem("egg_item_magby",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_MANTYKE = registerItem("egg_item_mantyke",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_MIMEJR = registerItem("egg_item_mimejr",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_MUNCHLAX = registerItem("egg_item_munchlax",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_RIOLU = registerItem("egg_item_riolu",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_SMOOCHUM = registerItem("egg_item_smoochum",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_TOXEL = registerItem("egg_item_toxel",new commonEgg(new Item.Settings().maxCount(1)));
-    public static final Item EGG_ITEM_TYROGUE = registerItem("egg_item_tyrogue",new commonEgg(new Item.Settings().maxCount(1))); // Cleaned
-    public static final Item EGG_ITEM_WYNAUT = registerItem("egg_item_wynaut",new commonEgg(new Item.Settings().maxCount(1))); // Cleaned
+    public static final Item EGG_ITEM_AZURILL = registerItem("egg_item_azurill",new azurillEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_BONSLY = registerItem("egg_item_bonsly",new bonslyEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_BUDEW = registerItem("egg_item_budew",new budewEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_CHINGLING = registerItem("egg_item_chingling",new chingEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_CLEFFA = registerItem("egg_item_cleffa",new cleffaEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_ELEKID = registerItem("egg_item_elekid",new elekidEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_HAPPINY = registerItem("egg_item_happiny",new happinyEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_IGGLYBUFF = registerItem("egg_item_igglybuff",new igglyEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_MAGBY = registerItem("egg_item_magby",new magbyEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_MANTYKE = registerItem("egg_item_mantyke",new mantykeEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_MIMEJR = registerItem("egg_item_mimejr",new mimejrEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_MUNCHLAX = registerItem("egg_item_munchlax",new munchlaxEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_RIOLU = registerItem("egg_item_riolu",new rioluEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_SMOOCHUM = registerItem("egg_item_smoochum",new smoochumEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_TOXEL = registerItem("egg_item_toxel",new toxelEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_TYROGUE = registerItem("egg_item_tyrogue",new tyrogueEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_WYNAUT = registerItem("egg_item_wynaut",new wynautEgg(new Item.Settings().maxCount(1)));
 
 
     // Tools
     public static final Item SPAWNER_WRENCH = registerItem("spawner_wrench", new wrenchItem(new Item.Settings().maxCount(1)));
 
     // Coins
+
+    public static final Item COPPER_COIN = registerItem("copper_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
+    public static final Item IROM_COIN = registerItem("iron_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
+    public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
+    public static final Item DIAMOND_COIN = registerItem("diamond_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
+    public static final Item EMERALD_COIN = registerItem("emerald_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
 
     // Armor
 

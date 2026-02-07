@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.serialization.MapCodec;
 import com.pr55.zavvyfeatures.Zavvyfeatures;
 import com.pr55.zavvyfeatures.component.ModDataComponentTypes;
+import com.pr55.zavvyfeatures.item.ModItems;
 import com.pr55.zavvyfeatures.item.custom.PokeToken;
 import com.pr55.zavvyfeatures.sound.ModSounds;
 import net.minecraft.block.Block;
@@ -48,45 +49,77 @@ public class pokeSpawner extends Block {
         setDefaultState(getDefaultState().with(POKESPAWNERDIRECTION, 0));
         setDefaultState(getDefaultState().with(POKESPAWNERDISTANCE, 1));
         //Gen1
-        tokenValues.put("zavvyfeatures:bulba_token","bulbasaur");
-        tokenValues.put("zavvyfeatures:char_token","charmander");
-        tokenValues.put("zavvyfeatures:squir_token","squirtle");
-        tokenValues.put("zavvyfeatures:pika_token","pikachu");
-        tokenValues.put("zavvyfeatures:eve_token","eevee");
+        tokenValues.put(Registries.ITEM.getId(ModItems.BULBA_TOKEN).toString(),"bulbasaur");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CHAR_TOKEN).toString(),"charmander");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SQUIR_TOKEN).toString(),"squirtle");
+        tokenValues.put(Registries.ITEM.getId(ModItems.PIKA_TOKEN).toString(),"pikachu");
+        tokenValues.put(Registries.ITEM.getId(ModItems.EVE_TOKEN).toString(),"eevee");
+        tokenValues.put(Registries.ITEM.getId(ModItems.LAP_TOKEN).toString(),"lapras");
+        tokenValues.put(Registries.ITEM.getId(ModItems.MAGNE_TOKEN).toString(),"magnemite");
+        tokenValues.put(Registries.ITEM.getId(ModItems.DRAT_TOKEN).toString(),"dratini");
+        tokenValues.put(Registries.ITEM.getId(ModItems.AERODA_TOKEN).toString(),"aerodactyl");
         // Gen 2
-        tokenValues.put("zavvyfeatures:chik_token","chikorita");
-        tokenValues.put("zavvyfeatures:cynd_token","cyndaquil");
-        tokenValues.put("zavvyfeatures:toto_token","totodile");
-        tokenValues.put("zavvyfeatures:togi_token","togepi");
-        tokenValues.put("zavvyfeatures:pichu_token","pichu");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CHIK_TOKEN).toString(),"chikorita");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CYND_TOKEN).toString(),"cyndaquil");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TOTO_TOKEN).toString(),"totodile");
+        tokenValues.put(Registries.ITEM.getId(ModItems.PICHU_TOKEN).toString(),"pichu");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TOGI_TOKEN).toString(),"togepi");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CLEFF_TOKEN).toString(),"cleffa");
+        tokenValues.put(Registries.ITEM.getId(ModItems.ELE_TOKEN).toString(),"elekid");
+        tokenValues.put(Registries.ITEM.getId(ModItems.IGG_TOKEN).toString(),"igglybuff");
+        tokenValues.put(Registries.ITEM.getId(ModItems.MAG_TOKEN).toString(),"magby");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SMOO_TOKEN).toString(),"smoochum");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TYR_TOKEN).toString(),"tyrogue");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TEDDI_TOKEN).toString(),"teddiursa");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SWIN_TOKEN).toString(),"swinub");
+
         // Gen 3
-        tokenValues.put("zavvyfeatures:tree_token","treecko");
-        tokenValues.put("zavvyfeatures:tor_token","torchic");
-        tokenValues.put("zavvyfeatures:kip_token","mudkip");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TREE_TOKEN).toString(),"treecko");
+        tokenValues.put(Registries.ITEM.getId(ModItems.KIP_TOKEN).toString(),"mudkip");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TOR_TOKEN).toString(),"torchic");
+        tokenValues.put(Registries.ITEM.getId(ModItems.AZURILL_TOKEN).toString(),"azurill");
+        tokenValues.put(Registries.ITEM.getId(ModItems.WY_TOKEN).toString(),"wynaut");
+        tokenValues.put(Registries.ITEM.getId(ModItems.WAILM_TOKEN).toString(),"wailmer");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TRAP_TOKEN).toString(),"trapinch");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SWAB_TOKEN).toString(),"swablu");
         // Gen 4
-        tokenValues.put("zavvyfeatures:tur_token","turtwig");
-        tokenValues.put("zavvyfeatures:chim_token","chimchar");
-        tokenValues.put("zavvyfeatures:pip_token","piplup");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TUR_TOKEN).toString(),"turtwig");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CHIM_TOKEN).toString(),"chimchar");
+        tokenValues.put(Registries.ITEM.getId(ModItems.PIP_TOKEN).toString(),"piplup");
+        tokenValues.put(Registries.ITEM.getId(ModItems.BONS_TOKEN).toString(),"bonsly");
+        tokenValues.put(Registries.ITEM.getId(ModItems.BUD_TOKEN).toString(),"budew");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CHING_TOKEN).toString(),"chingling");
+        tokenValues.put(Registries.ITEM.getId(ModItems.PINY_TOKEN).toString(),"happiny");
+        tokenValues.put(Registries.ITEM.getId(ModItems.MANTY_TOKEN).toString(),"mantyke");
+        tokenValues.put(Registries.ITEM.getId(ModItems.MIMJR_TOKEN).toString(),"mimejr");
+        tokenValues.put(Registries.ITEM.getId(ModItems.MUNCH_TOKEN).toString(),"munchlax");
+        tokenValues.put(Registries.ITEM.getId(ModItems.RIO_TOKEN).toString(),"riolu");
         // Gen 5
-        tokenValues.put("zavvyfeatures:sniv_token","snivy");
-        tokenValues.put("zavvyfeatures:tep_token","tepig");
-        tokenValues.put("zavvyfeatures:osha_token","oshawott");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SNIV_TOKEN).toString(),"snivy");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TEP_TOKEN).toString(),"tepig");
+        tokenValues.put(Registries.ITEM.getId(ModItems.OSHA_TOKEN).toString(),"oshawott");
+        tokenValues.put(Registries.ITEM.getId(ModItems.BLITZ_TOKEN).toString(),"blitzle");
         // Gen 6
-        tokenValues.put("zavvyfeatures:chesp_token","chespin");
-        tokenValues.put("zavvyfeatures:fenne_token","fennekin");
-        tokenValues.put("zavvyfeatures:froak_token","froakie");
+        tokenValues.put(Registries.ITEM.getId(ModItems.CHESP_TOKEN).toString(),"chespin");
+        tokenValues.put(Registries.ITEM.getId(ModItems.FENNE_TOKEN).toString(),"fennekin");
+        tokenValues.put(Registries.ITEM.getId(ModItems.FROAK_TOKEN).toString(),"froakie");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SKID_TOKEN).toString(),"skiddo");
+        tokenValues.put(Registries.ITEM.getId(ModItems.NOI_TOKEN).toString(),"noibat");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TYRUNT_TOKEN).toString(),"tyrunt");
         // Gen 7
-        tokenValues.put("zavvyfeatures:row_token","rowlet");
-        tokenValues.put("zavvyfeatures:lit_token","litten");
-        tokenValues.put("zavvyfeatures:pop_token","popplio");
+        tokenValues.put(Registries.ITEM.getId(ModItems.ROW_TOKEN).toString(),"rowlet");
+        tokenValues.put(Registries.ITEM.getId(ModItems.LIT_TOKEN).toString(),"litten");
+        tokenValues.put(Registries.ITEM.getId(ModItems.POP_TOKEN).toString(),"popplio");
         // Gen 8
-        tokenValues.put("zavvyfeatures:groo_token","grookey");
-        tokenValues.put("zavvyfeatures:scor_token","scorbunny");
-        tokenValues.put("zavvyfeatures:sob_token","sobble");
+        tokenValues.put(Registries.ITEM.getId(ModItems.GROO_TOKEN).toString(),"grookey");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SCOR_TOKEN).toString(),"scorbunny");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SOB_TOKEN).toString(),"sobble");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TOX_TOKEN).toString(),"toxel");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SNEASE_TOKEN).toString(),"sneasel");
         // Gen 9
-        tokenValues.put("zavvyfeatures:sprig_token","sprigatito");
-        tokenValues.put("zavvyfeatures:coco_token","fuecoco");
-        tokenValues.put("zavvyfeatures:quax_token","quaxly");
+        tokenValues.put(Registries.ITEM.getId(ModItems.SPRIG_TOKEN).toString(),"sprigatito");
+        tokenValues.put(Registries.ITEM.getId(ModItems.COCO_TOKEN).toString(),"fuecoco");
+        tokenValues.put(Registries.ITEM.getId(ModItems.QUAX_TOKEN).toString(),"quaxly");
 
     }
 

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zavvyfeatures:diamond_coin"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "zavvyfeatures:gold_coin"
+  }
+}

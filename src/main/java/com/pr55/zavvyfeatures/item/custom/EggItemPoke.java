@@ -126,9 +126,8 @@ public class EggItemPoke extends Item {
 
 
             stack.set(ModDataComponentTypes.ACTIVE, eval == stack);
+            determinTick(stack,world,entity,slot,selected);
         }
-
-        determinTick(stack,world,entity,slot,selected);
     }
 
     @Override
@@ -196,27 +195,6 @@ public class EggItemPoke extends Item {
                 player.playSoundToPlayer(ModSounds.EGG_READY,SoundCategory.MASTER,1,1);
 //                stack.decrement(1);
 //                player.giveItemStack(new ItemStack(Items.DIAMOND, 1));
-                try {
-
-                    // work on toast manager
-//                    CommandDispatcher<ServerCommandSource> dispatcher = world.getServer().getCommandManager().getDispatcher();
-//
-//                    ServerCommandSource source = world.getServer().getCommandSource();
-//                    if(source != null) {
-//                        Zavvyfeatures.LOGGER.info("Source is not null!");
-//                    }else{
-//                        Zavvyfeatures.LOGGER.info("Source is null!");
-//                    }
-//                    String command = "spawnpokemon %s %s %s togepi".formatted(player.getPos().x,player.getPos().z + 10,player.getPos().y);
-//                    dispatcher.execute(command, source);
-
-                    //Commands work, cleanup to advanced block
-                }catch (Exception e){
-                    Zavvyfeatures.LOGGER.info("Command failed! %s\n%s\n%s\n".formatted(e.getMessage(), e.getCause(), e.getLocalizedMessage()));
-
-                    e.printStackTrace();
-                }
-
             }
 
             // Add item Tags

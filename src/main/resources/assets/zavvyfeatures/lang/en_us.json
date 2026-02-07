@@ -1,18 +1,10 @@
 {
-  "item.zavvyfeatures.pink_garnet": "Pink Garnet",
-  "block.zavvyfeatures.pink_garnet_block": "Pink Garnet Block",
+  "modmenu.nameTranslation.zavvyfeatures": "Cobblemon Server Utilities",
 
-  "item.zavvyfeatures.raw_pink_garnet": "Raw Pink Garnet",
-  "block.zavvyfeatures.raw_pink_garnet_block": "Raw Pink Garnet Block",
 
-  "block.zavvyfeatures.pink_garnet_ore": "Pink Garnet Ore",
-  "block.zavvyfeatures.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
-
-  "item.zavvyfeatures.troll_face_point": "HA HA!",
-
-  "itemgroup.zavvyfeatures.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.zavvyfeatures.pink_garnet_blocks": "Pink Garnet Blocks",
-  "itemgroup.zavvyfeatures.dummy_items": "Egg/Spawning Items",
+  "itemgroup.zavvyfeatures.admin_items": "Server Items",
+  "itemgroup.zavvyfeatures.egg_items": "Egg Items",
+  "itemgroup.zavvyfeatures.ride_items": "Ride Items",
 
   "item.zavvyfeatures.egg_item_base": "Mystery Egg",
   "tooltip.zavvyfeatures.egg_item_base.tooltip": "Mystery Egg Test",
@@ -32,10 +24,29 @@
 
 
   "item.zavvyfeatures.egg_item_togepi": "Unknown Egg",
-  "tooltip.zavvyfeatures.egg_item_togepi.tooltip": "Unknown Egg, 1/8192 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_togepi.tooltip": "Unknown Egg, 1/2048 shiny chance, §6Right Click§r to activate!",
 
   "item.zavvyfeatures.egg_item_pichu": "Unknown Egg",
-  "tooltip.zavvyfeatures.egg_item_pichu.tooltip": "Unknown Egg, 1/8192 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_pichu.tooltip": "Unknown Egg, 1/2048 shiny chance, §6Right Click§r to activate!",
+
+
+  "item.zavvyfeatures.egg_item_azurill": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_bonsly": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_budew": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_chingling": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_cleffa": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_elekid": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_happiny": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_igglybuff": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_magby": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_mantyke": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_mimejr": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_munchlax": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_riolu": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_smoochum": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_tyrogue": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_toxel": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_wynaut": "Unknown Egg",
 
 
   "item.zavvyfeatures.bulba_token":"Bulbasaur Token",
@@ -43,28 +54,57 @@
   "item.zavvyfeatures.squir_token":"Squirtle Token",
   "item.zavvyfeatures.pika_token":"Pikachu Token",
   "item.zavvyfeatures.eve_token":"Eevee Token",
+  "item.zavvyfeatures.aeroda_token":"Aerodactyl Token",
+  "item.zavvyfeatures.drat_token":"Dratini Token",
+  "item.zavvyfeatures.magne_token":"Magnemite Token",
+  "item.zavvyfeatures.lap_token":"Lapras Token",
 
   "item.zavvyfeatures.chik_token":"Chikorita Token",
   "item.zavvyfeatures.cynd_token":"Cyndaquil Token",
   "item.zavvyfeatures.toto_token":"Totodile Token",
   "item.zavvyfeatures.togi_token":"Togepi Token",
   "item.zavvyfeatures.pichu_token":"Pichu Token",
+  "item.zavvyfeatures.cleff_token":"Cleffa Token",
+  "item.zavvyfeatures.ele_token":"Elekid Token",
+  "item.zavvyfeatures.igg_token":"Igglybuff Token",
+  "item.zavvyfeatures.mag_token":"Magby Token",
+  "item.zavvyfeatures.smoo_token":"Smoochum Token",
+  "item.zavvyfeatures.tyr_token":"Tyrogue Token",
+  "item.zavvyfeatures.teddi_token":"Teddiursa Token",
+  "item.zavvyfeatures.swin_token":"Swinub Token",
 
   "item.zavvyfeatures.tree_token":"Treecko Token",
   "item.zavvyfeatures.tor_token":"Torchic Token",
   "item.zavvyfeatures.kip_token":"Mudkip Token",
+  "item.zavvyfeatures.azurill_token":"Azurill Token",
+  "item.zavvyfeatures.wy_token":"Wynaut Token",
+  "item.zavvyfeatures.wailm_token":"Wailmer Token",
+  "item.zavvyfeatures.trap_token":"Trapinch Token",
+  "item.zavvyfeatures.swab_token":"Swablu Token",
 
   "item.zavvyfeatures.tur_token":"Turtwig Token",
   "item.zavvyfeatures.chim_token":"Chimchar Token",
   "item.zavvyfeatures.pip_token":"Piplup Token",
+  "item.zavvyfeatures.bons_token":"Bonsly Token",
+  "item.zavvyfeatures.bud_token":"Budew Token",
+  "item.zavvyfeatures.ching_token":"Chingling Token",
+  "item.zavvyfeatures.piny_token":"Happiny Token",
+  "item.zavvyfeatures.manty_token":"Mantyke Token",
+  "item.zavvyfeatures.mimjr_token":"Mime Jr. Token",
+  "item.zavvyfeatures.munch_token":"Munchlax Token",
+  "item.zavvyfeatures.rio_token":"Riolu Token",
 
   "item.zavvyfeatures.sniv_token":"Snivy Token",
   "item.zavvyfeatures.tep_token":"Tepig Token",
   "item.zavvyfeatures.osha_token":"Oshawott Token",
+  "item.zavvyfeatures.blitz_token":"Blitzle Token",
 
   "item.zavvyfeatures.chesp_token":"Chespin Token",
   "item.zavvyfeatures.fenne_token":"Fennekin Token",
   "item.zavvyfeatures.froak_token":"Froakie Token",
+  "item.zavvyfeatures.noi_token":"Noibat Token",
+  "item.zavvyfeatures.skid_token":"Skiddo Token",
+  "item.zavvyfeatures.tyrunt_token":"Tyrunt Token",
 
   "item.zavvyfeatures.row_token":"Rowlet Token",
   "item.zavvyfeatures.lit_token":"Litten Token",
@@ -73,6 +113,8 @@
   "item.zavvyfeatures.groo_token":"Grookey Token",
   "item.zavvyfeatures.scor_token":"Scorbunny Token",
   "item.zavvyfeatures.sob_token":"Sobble Token",
+  "item.zavvyfeatures.tox_token":"Toxel Token",
+  "item.zavvyfeatures.snease_token":"Sneasel Token",
 
   "item.zavvyfeatures.sprig_token":"Sprigatito Token",
   "item.zavvyfeatures.coco_token":"Fuecoco Token",
@@ -83,7 +125,16 @@
   "item.zavvyfeatures.hisui_token": "Hisuian Form",
 
   "block.zavvyfeatures.poke_spawner": "Token Spawner",
-  "item.zavvyfeatures.spawner_wrench": "Poke Spawner Wrench",
+  "item.zavvyfeatures.spawner_wrench": "Token Spawner Wrench",
+  "block.zavvyfeatures.incubator_zavvy": "Incubator",
+  "block.zavvyfeatures.incubator_zavvy.tooltip": "Used to cut time of §6Poke Eggs§r hatching in half",
+
+  "item.zavvyfeatures.copper_coin": "Copper Coin",
+  "item.zavvyfeatures.iron_coin": "Iron Coin",
+  "item.zavvyfeatures.gold_coin": "Gold Coin",
+  "item.zavvyfeatures.diamond_coin": "Diamond Coin",
+  "item.zavvyfeatures.emerald_coin": "Emerald Coin",
+
 
   "item.zavvyfeatures.james_helmet_zavvy": "Rocket Helmet (James)",
   "item.zavvyfeatures.james_chestplate_zavvy": "Rocket Chestplate (James)",

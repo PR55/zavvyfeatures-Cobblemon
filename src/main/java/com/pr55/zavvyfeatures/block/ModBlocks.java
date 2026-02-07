@@ -1,6 +1,7 @@
 package com.pr55.zavvyfeatures.block;
 
 import com.pr55.zavvyfeatures.Zavvyfeatures;
+import com.pr55.zavvyfeatures.block.custom.incubatorBlock;
 import com.pr55.zavvyfeatures.block.custom.pokeSpawner;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
@@ -28,6 +29,10 @@ public class ModBlocks {
 
     public static final Block poke_block = registerBlock("poke_spawner",
             new pokeSpawner(AbstractBlock.Settings.create().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block incubator = registerBlock("incubator_zavvy",
+            new incubatorBlock(AbstractBlock.Settings.create().nonOpaque().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlock.ITEM_CONTAINED) == 1 ? 12 : 0)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);

@@ -1,15 +1,16 @@
 {
 	"schemaVersion": 1,
 	"id": "zavvyfeatures",
-	"version": "1.0.1",
-	"name": "zavvyfeatures",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "1.0.2",
+	"name": "Cobblemon Server Features",
+	"description": "A collection of utility items and blocks, to streamline new features for cobblemon servers. \n\nOpen to use and made at the request of Zavvy.\n\nView her streams at 'twitch.tv/zavvy'",
 	"authors": [
-		"Me!"
+		"PR55 - Perventum55",
+		"Zavvy"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-server-tools",
+		"issues": "https://github.com/PR55/zavvyfeatures-Cobblemon/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/zavvyfeatures/icon.png",
@@ -20,6 +21,9 @@
 		],
 		"fabric-datagen": [
 			"com.pr55.zavvyfeatures.ZavvyfeaturesDataGenerator"
+		],
+		"client": [
+			"com.pr55.zavvyfeatures.ZavvyfeaturesClient"
 		]
 	},
 	"mixins": [

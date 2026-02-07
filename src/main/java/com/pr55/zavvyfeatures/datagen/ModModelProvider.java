@@ -132,6 +132,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPAWNER_WRENCH, Models.GENERATED);
         // Work on mod entity blocks up next
 
+        itemModelGenerator.register(ModItems.COPPER_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IROM_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_COIN, Models.GENERATED);
+
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS);

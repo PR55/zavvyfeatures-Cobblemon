@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zavvyfeatures:iron_coin"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "zavvyfeatures:copper_coin"
+  }
+}
