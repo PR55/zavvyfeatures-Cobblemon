@@ -1,5 +1,12 @@
 {
-  "modmenu.nameTranslation.zavvyfeatures": "Cobblemon Server Utilities",
+  "zavvyfeatures.midnightconfig.title": "Cobblemon Server Tools",
+
+  "zavvyfeatures.midnightconfig.category.timers": "Egg Timers",
+  "zavvyfeatures.midnightconfig.text1": "Egg Timers are defined in seconds!",
+  "zavvyfeatures.midnightconfig.category.events": "Event Scheduler",
+  "zavvyfeatures.midnightconfig.text2": "Event Timezone",
+  "zavvyfeatures.midnightconfig.text3": "Events are scheduled by submitting a title and a date ('MM-DD-YYYY HH:MM:SS' format)",
+
 
 
   "itemgroup.zavvyfeatures.admin_items": "Server Items",
@@ -9,25 +16,25 @@
   "item.zavvyfeatures.egg_item_base": "Mystery Egg",
   "tooltip.zavvyfeatures.egg_item_base.tooltip": "Mystery Egg Test",
   "item.zavvyfeatures.egg_item_common": "Common Mystery Egg",
-  "tooltip.zavvyfeatures.egg_item_common.tooltip": "Common Mystery Egg, 1/8192 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_common.tooltip": "Common Mystery Egg, 1/%d shiny chance, §6Right Click§r to activate!",
   "item.zavvyfeatures.egg_item_uncommon": "Uncommon Mystery Egg",
   "item.zavvyfeatures.egg_item_rare": "Rare Mystery Egg",
-  "tooltip.zavvyfeatures.egg_item_uncommon.tooltip": "Uncommon Mystery Egg, 1/4096 shiny chance, §6Right Click§r to activate!",
-  "tooltip.zavvyfeatures.egg_item_rare.tooltip": "Rare Mystery Egg, 1/2048 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_uncommon.tooltip": "Uncommon Mystery Egg, 1/%d shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_rare.tooltip": "Rare Mystery Egg, 1/%d shiny chance, §6Right Click§r to activate!",
   "item.zavvyfeatures.egg_item_epic": "Epic Mystery Egg",
-  "tooltip.zavvyfeatures.egg_item_epic.tooltip": "Epic Mystery Egg, 1/1024 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_epic.tooltip": "Epic Mystery Egg, 1/%d shiny chance, §6Right Click§r to activate!",
   "item.zavvyfeatures.egg_item_legendary": "Legendary Mystery Egg",
-  "tooltip.zavvyfeatures.egg_item_legendary.tooltip": "Legendary Mystery Egg, 1/512 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_legendary.tooltip": "Legendary Mystery Egg, 1/%d shiny chance, §6Right Click§r to activate!",
 
   "tooltip.zavvyfeatures.egg_item.tooltip": "Hold in §6offhand§r or put in an §6incubator§r to progress timer",
   "tooltip.zavvyfeatures.egg_item_done.tooltip": "Timer is done, §6Right Click§r to hatch! Make sure you have a free inventory space!",
 
 
   "item.zavvyfeatures.egg_item_togepi": "Unknown Egg",
-  "tooltip.zavvyfeatures.egg_item_togepi.tooltip": "Unknown Egg, 1/2048 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_togepi.tooltip": "Unknown Egg, 1/%d shiny chance, §6Right Click§r to activate!",
 
   "item.zavvyfeatures.egg_item_pichu": "Unknown Egg",
-  "tooltip.zavvyfeatures.egg_item_pichu.tooltip": "Unknown Egg, 1/2048 shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_pichu.tooltip": "Unknown Egg, 1/%d shiny chance, §6Right Click§r to activate!",
 
 
   "item.zavvyfeatures.egg_item_azurill": "Unknown Egg",
@@ -128,6 +135,8 @@
   "item.zavvyfeatures.spawner_wrench": "Token Spawner Wrench",
   "block.zavvyfeatures.incubator_zavvy": "Incubator",
   "block.zavvyfeatures.incubator_zavvy.tooltip": "Used to cut time of §6Poke Eggs§r hatching in half",
+  "block.zavvyfeatures.calendar_zavvy": "Event Calander",
+  "block.zavvyfeatures.calendar_zavvy.tooltip": "W.I.P. A purely cosmetic calendar.",
 
   "item.zavvyfeatures.copper_coin": "Copper Coin",
   "item.zavvyfeatures.iron_coin": "Iron Coin",
@@ -135,6 +144,7 @@
   "item.zavvyfeatures.diamond_coin": "Diamond Coin",
   "item.zavvyfeatures.emerald_coin": "Emerald Coin",
 
+  "effect.zavvyfeatures.rocket_espionage":"Rocket Espionage",
 
   "item.zavvyfeatures.james_helmet_zavvy": "Rocket Helmet (James)",
   "item.zavvyfeatures.james_chestplate_zavvy": "Rocket Chestplate (James)",

@@ -5,6 +5,7 @@ import com.cobblemon.mod.common.api.events.battles.BattleVictoryEvent;
 import com.pr55.zavvyfeatures.block.ModBlocks;
 import com.pr55.zavvyfeatures.block.entity.ModBlockEntities;
 import com.pr55.zavvyfeatures.component.ModDataComponentTypes;
+import com.pr55.zavvyfeatures.config.ModConfigs;
 import com.pr55.zavvyfeatures.effect.ModEffects;
 import com.pr55.zavvyfeatures.item.ModItemGroups;
 import com.pr55.zavvyfeatures.item.ModItems;
@@ -46,19 +47,18 @@ public class Zavvyfeatures implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		ModItemGroups.registerItemGroups();
-
-
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
-
-		ModBlockEntities.registerBlockEntities();
+		ModConfigs.InitializeModConfigs();
 
 		ModDataComponentTypes.registerDataComponentTypes();
 		ModSounds.registerSounds();
 
+		ModItems.registerModItems();
+		ModBlockEntities.registerBlockEntities();
+		ModBlocks.registerModBlocks();
 
-//		ModEffects.registerEffects();
+		ModItemGroups.registerItemGroups();
+
+		ModEffects.registerEffects();
 
 	}
 }

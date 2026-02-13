@@ -1,6 +1,7 @@
 package com.pr55.zavvyfeatures.item.custom;
 
 import com.pr55.zavvyfeatures.Zavvyfeatures;
+import com.pr55.zavvyfeatures.config.custom.GeneralConfig;
 import com.pr55.zavvyfeatures.item.ModItems;
 import com.pr55.zavvyfeatures.sound.ModSounds;
 import com.terraformersmc.modmenu.util.mod.Mod;
@@ -24,7 +25,7 @@ import java.util.Random;
 
 public class EggItemPoke extends Item {
 
-    private final static int DEFAULT_TIMER = 100;
+    int DEFAULT_TIMER = GeneralConfig.babyEgg * 20;
     private final static int DEFAULT_SECOND = 0;
     int SHINY_CHANCE = 8192;
     String ACTIVATE_GUIDE = "tooltip.zavvyfeatures.common";
@@ -91,7 +92,7 @@ public class EggItemPoke extends Item {
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         if(stack.get(ModDataComponentTypes.HATCHABLE) == null){
 
-            tooltip.add(Text.translatable(ACTIVATE_GUIDE));
+            tooltip.add(Text.translatable(this.ACTIVATE_GUIDE, this.SHINY_CHANCE));
 
         }
 
@@ -209,7 +210,8 @@ public class EggItemPoke extends Item {
 
     private String TicksToTime(int ticks){
 
-        String reduce = "" + (int) Math.floor(ticks/1200.0);
+        String reduce = "" + (int ) Math.floor(ticks/72000.0);
+        String reduce2 = "" + ((int) (Math.floor((ticks - (Integer.parseInt(reduce) * 72000))/1200.0)));
         String seconds = "" + (int) Math.round((ticks % 1200.0)/20);
 
         ArrayList<String> secondTimes = new ArrayList<String>();
@@ -233,8 +235,12 @@ public class EggItemPoke extends Item {
             reduce = "0" + reduce;
         }
 
-        if(!reduce.equals("0")){
-            return reduce + ":" + seconds;
+        if(secondTimes.contains(reduce2)){
+            reduce2 = "0" + reduce2;
+        }
+
+        if(!reduce2.equals("0")){
+            return reduce + ":" + reduce2 + ":" + seconds;
         }else{
             return "00" + ":" + seconds;
         }

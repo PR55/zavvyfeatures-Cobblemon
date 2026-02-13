@@ -1,6 +1,7 @@
 package com.pr55.zavvyfeatures.block;
 
 import com.pr55.zavvyfeatures.Zavvyfeatures;
+import com.pr55.zavvyfeatures.block.custom.calanderBlock;
 import com.pr55.zavvyfeatures.block.custom.incubatorBlock;
 import com.pr55.zavvyfeatures.block.custom.pokeSpawner;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -32,6 +33,9 @@ public class ModBlocks {
 
     public static final Block incubator = registerBlock("incubator_zavvy",
             new incubatorBlock(AbstractBlock.Settings.create().nonOpaque().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlock.ITEM_CONTAINED) == 1 ? 12 : 0)));
+
+    public static final Block CALANDER_BLOCK = registerBlock("calendar_zavvy",
+            new calanderBlock(AbstractBlock.Settings.create().resistance(2f).hardness(-1f).sounds(BlockSoundGroup.WOOL)));
 
 
     private static Block registerBlock(String name, Block block){

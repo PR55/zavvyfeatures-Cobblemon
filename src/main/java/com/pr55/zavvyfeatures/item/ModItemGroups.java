@@ -43,6 +43,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 //                        entries.add(ModItems.TROLL_FACE_POINT);
                         entries.add(ModBlocks.incubator);
+                        entries.add(ModBlocks.CALANDER_BLOCK);
                         entries.add(ModBlocks.poke_block);
                         entries.add(ModItems.SPAWNER_WRENCH);
 

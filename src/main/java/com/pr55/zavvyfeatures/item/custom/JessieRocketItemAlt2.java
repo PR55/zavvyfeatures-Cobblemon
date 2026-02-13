@@ -1,6 +1,7 @@
 package com.pr55.zavvyfeatures.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import com.pr55.zavvyfeatures.effect.ModEffects;
 import com.pr55.zavvyfeatures.item.ModArmorMaterials;
 import com.pr55.zavvyfeatures.item.ModItems;
 import com.pr55.zavvyfeatures.item.client.JessieRocketRenderer;
@@ -43,7 +44,7 @@ public class JessieRocketItemAlt2 extends ArmorItem implements GeoItem {
     private static final Map<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>> MATERIAL_TO_EFFECT_MAP = (
             new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>>()).put(
             ModArmorMaterials.JAMES_ROCKET_MATERIAL,List.of(
-                    new StatusEffectInstance(StatusEffects.INVISIBILITY,600,1,false,false))).build();
+                    new StatusEffectInstance(ModEffects.ROCKENT_ESPIONAGE,600,0,false,false))).build();
 
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 

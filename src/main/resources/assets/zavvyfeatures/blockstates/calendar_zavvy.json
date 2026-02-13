@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "zavvyfeatures:block/calendar_zavvy",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "zavvyfeatures:block/calendar_zavvy"
+    },
+    "facing=south": {
+      "model": "zavvyfeatures:block/calendar_zavvy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zavvyfeatures:block/calendar_zavvy",
+      "y": 270
+    }
+  }
+}

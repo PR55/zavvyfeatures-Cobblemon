@@ -3,7 +3,8 @@
 	"package": "com.pr55.zavvyfeatures.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"CustomEffects"
 	],
 	"injectors": {
 		"defaultRequire": 1
