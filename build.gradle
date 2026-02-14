@@ -103,6 +103,8 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-language-kotlin:1.13.6+kotlin.2.2.20"
 	modImplementation "curse.maven:cloth-config-348521:5729125"
 	modImplementation include ("eu.midnightdust:midnightlib:${project.midnightlib_version}")
+	modImplementation "curse.maven:architectury-api-419699:5786326"
+	modImplementation "curse.maven:biolith-852512:7074759"
 
 	modImplementation "curse.maven:modmenu-308702:5810603"
 	modImplementation "curse.maven:jei-238222:7391679"
@@ -119,6 +121,8 @@ dependencies {
 	modImplementation "curse.maven:fancy-toasts-1326436:7302349"
 
 	modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}"
+
+	modImplementation "curse.maven:lets-do-bloomingnature-962885:7598622"
 
 }
 
