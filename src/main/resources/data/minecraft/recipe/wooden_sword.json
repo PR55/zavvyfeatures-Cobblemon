@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "id": "minecraft:bedrock"
+  },
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:wooden_sword"
+    }
+  }
+}
