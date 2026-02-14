@@ -1,0 +1,66 @@
+{
+  "head": "head",
+  "portraitScale": 1.65,
+  "portraitTranslation": [
+    0,
+    -0.6,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0.15,
+    0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('grookey', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grookey', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grookey', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grookey', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grookey', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grookey', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grookey', 'blink')"
+      ]
+    }
+  }
+}
