@@ -13,7 +13,7 @@
     0
   ],
   "animations": {
-    "cry": "q.bedrock_stateful('totodile', 'cry')"
+    "cry": "q.bedrock_stateful('chespin', 'cry')"
   },
   "poses": {
     "battle-standing": {
@@ -24,10 +24,10 @@
       "isBattle": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('totodile', 'battle_idle')"
+        "q.bedrock('chespin', 'battle_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('totodile', 'blink')"
+        "q.bedrock_quirk('chespin', 'blink')"
       ]
     },
     "standing": {
@@ -43,10 +43,10 @@
       "isBattle": false,
       "animations": [
         "q.look('head')",
-        "q.bedrock('totodile', 'ground_idle')"
+        "q.bedrock('chespin', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('totodile', 'blink')"
+        "q.bedrock_quirk('chespin', 'blink')"
       ]
     },
     "walking": {
@@ -56,10 +56,10 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('totodile', 'ground_walk')"
+        "q.bedrock('chespin', 'ground_walk')"
       ],
       "quirks": [
-        "q.bedrock_quirk('totodile', 'blink')"
+        "q.bedrock_quirk('chespin', 'blink')"
       ]
     }
   }
