@@ -3,6 +3,7 @@ package com.pr55.zavvyfeatures;
 import com.pr55.zavvyfeatures.block.ModBlocks;
 import com.pr55.zavvyfeatures.block.entity.ModBlockEntities;
 import com.pr55.zavvyfeatures.block.entity.renderer.incubatorBlockEntityRenderer;
+import com.pr55.zavvyfeatures.block.entity.renderer.incubatorBlockEntityRendererSellable;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
@@ -12,7 +13,9 @@ public class ZavvyfeaturesClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.incubator, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.incubator_sell, RenderLayer.getTranslucent());
 
         BlockEntityRendererFactories.register(ModBlockEntities.INCUBATOR_BE, incubatorBlockEntityRenderer::new);
+        BlockEntityRendererFactories.register(ModBlockEntities.INCUBATOR_BE_SELL, incubatorBlockEntityRendererSellable::new);
     }
 }

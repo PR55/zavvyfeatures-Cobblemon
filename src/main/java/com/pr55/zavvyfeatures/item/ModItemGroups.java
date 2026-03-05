@@ -43,6 +43,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 //                        entries.add(ModItems.TROLL_FACE_POINT);
                         entries.add(ModBlocks.incubator);
+                        entries.add(ModBlocks.incubator_sell);
                         entries.add(ModBlocks.CALANDER_BLOCK);
                         entries.add(ModBlocks.poke_block);
                         entries.add(ModItems.SPAWNER_WRENCH);
@@ -52,6 +53,20 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModItems.DIAMOND_COIN);
                         entries.add(ModItems.EMERALD_COIN);
+                    }).build());
+
+    public static final ItemGroup RP_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Zavvyfeatures.MOD_ID,"rp_items"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack((ModItems.JAMES_HELMET)))
+                    .displayName(Text.translatable("itemgroup.zavvyfeatures.rp_items"))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.NEWS_SUIT_CHESTPLATE);
+                        entries.add(ModItems.NEWS_SUIT_CHESTPLATE_2);
+                        entries.add(ModItems.NEWS_SUIT_CHESTPLATE_3);
+                        entries.add(ModItems.NEWS_SUIT_LEGGINGS);
+                        entries.add(ModItems.NEWS_SUIT_BOOTS);
 
                         entries.add(ModItems.JAMES_HELMET);
                         entries.add(ModItems.JAMES_CHESTPLATE);
@@ -95,6 +110,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JESSIE_LEGGINGS_ALT4);
                         entries.add(ModItems.JESSIE_BOOTS_ALT4);
                     }).build());
+
     public static final ItemGroup POKE_TOKENS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Zavvyfeatures.MOD_ID,"poke_tokens"),
             FabricItemGroup.builder()

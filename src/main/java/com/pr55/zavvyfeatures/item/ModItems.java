@@ -211,6 +211,17 @@ public class ModItems {
     public static final Item JESSIE_BOOTS_ALT4 = registerItem("jessie_boots_zavvy_alt4",
             new JessieRocketItemAlt4(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
 
+    //News Suits
+    public static final Item NEWS_SUIT_CHESTPLATE = registerItem("news_suit_zavvy_chest",
+            new NewsSuittItem(ModArmorMaterials.NEWS_SUITS_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item NEWS_SUIT_CHESTPLATE_2 = registerItem("news_suit_zavvy_chest2",
+            new NewsSuittItem1(ModArmorMaterials.NEWS_SUITS_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item NEWS_SUIT_CHESTPLATE_3 = registerItem("news_suit_zavvy_chest3",
+            new NewsSuittItem2(ModArmorMaterials.NEWS_SUITS_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item NEWS_SUIT_LEGGINGS = registerItem("news_suit_zavvy_pants",
+            new NewsSuittItem(ModArmorMaterials.NEWS_SUITS_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item NEWS_SUIT_BOOTS = registerItem("news_suit_zavvy_boots",
+            new NewsSuittItem(ModArmorMaterials.NEWS_SUITS_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Zavvyfeatures.MOD_ID,name), item);

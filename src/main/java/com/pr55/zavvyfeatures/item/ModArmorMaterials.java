@@ -28,6 +28,16 @@ public class ModArmorMaterials {
             }), 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.BEDROCK),
                     List.of(new ArmorMaterial.Layer(Identifier.of(Zavvyfeatures.MOD_ID, "james_rocket"))), 0,0));
 
+    public static final RegistryEntry<ArmorMaterial> NEWS_SUITS_MATERIAL = registerArmorMaterial("news_suits",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 2);
+                map.put(ArmorItem.Type.LEGGINGS, 5);
+                map.put(ArmorItem.Type.CHESTPLATE, 6);
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 5);
+            }), 9, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.BEDROCK),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(Zavvyfeatures.MOD_ID, "james_rocket"))), 0,0));
+
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material){
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(Zavvyfeatures.MOD_ID, name), material.get());
     }

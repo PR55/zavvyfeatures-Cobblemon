@@ -12,6 +12,7 @@
   "itemgroup.zavvyfeatures.admin_items": "Server Items",
   "itemgroup.zavvyfeatures.egg_items": "Egg Items",
   "itemgroup.zavvyfeatures.ride_items": "Ride Items",
+  "itemgroup.zavvyfeatures.rp_items": "RP Items",
 
   "item.zavvyfeatures.egg_item_base": "Mystery Egg",
   "tooltip.zavvyfeatures.egg_item_base.tooltip": "Mystery Egg Test",
@@ -134,7 +135,9 @@
   "block.zavvyfeatures.poke_spawner": "Token Spawner",
   "item.zavvyfeatures.spawner_wrench": "Token Spawner Wrench",
   "block.zavvyfeatures.incubator_zavvy": "Incubator",
+  "block.zavvyfeatures.incubator_zavvy_sell": "Incubator",
   "block.zavvyfeatures.incubator_zavvy.tooltip": "Used to cut time of §6Poke Eggs§r hatching in half",
+  "block.zavvyfeatures.incubator_zavvy.tooltip_sell": "Used to hatch §6Poke Eggs§r automatically at a reduced rate, doubling the hatching time.",
   "block.zavvyfeatures.calendar_zavvy": "Event Calander",
   "block.zavvyfeatures.calendar_zavvy.tooltip": "W.I.P. A purely cosmetic calendar.",
 
@@ -143,6 +146,13 @@
   "item.zavvyfeatures.gold_coin": "Gold Coin",
   "item.zavvyfeatures.diamond_coin": "Diamond Coin",
   "item.zavvyfeatures.emerald_coin": "Emerald Coin",
+
+
+  "item.zavvyfeatures.news_suit_zavvy_chest": "News Chest (Alt 1)",
+  "item.zavvyfeatures.news_suit_zavvy_chest2": "News Chest (Alt 2)",
+  "item.zavvyfeatures.news_suit_zavvy_chest3": "News Chest (Alt 3)",
+  "item.zavvyfeatures.news_suit_zavvy_pants": "News Pants",
+  "item.zavvyfeatures.news_suit_zavvy_boots": "News Boots",
 
   "effect.zavvyfeatures.rocket_espionage":"Rocket Espionage",
 
@@ -188,5 +198,8 @@
   "item.zavvyfeatures.jessie_leggings_zavvy_alt4": "Rocket Leggings (Jessie Alt. 4)",
   "item.zavvyfeatures.jessie_boots_zavvy_alt4": "Rocket Boots (Jessie Alt. 4)",
 
-  "zavvyfeatures.error.contact": "A fatal error has occured with the command, please press your screenshot key with the chat open and send the screenshot to PR55 in a dm on discord. Send with your minecraft username if this occurred on Zavvy's server! PR55(pr55)"
+  "zavvyfeatures.error.contact": "A fatal error has occured with the command, please press your screenshot key with the chat open and send the screenshot to PR55 in a dm on discord. Send with your minecraft username if this occurred on Zavvy's server! PR55(pr55)",
+
+  "entity.minecraft.villager.zavvyfeatures.kaupenger": "Kaupenger"
+
 }

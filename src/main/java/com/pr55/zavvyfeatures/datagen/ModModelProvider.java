@@ -188,5 +188,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_LEGGINGS_ALT4);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JESSIE_BOOTS_ALT4);
 
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NEWS_SUIT_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NEWS_SUIT_CHESTPLATE_2);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NEWS_SUIT_CHESTPLATE_3);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NEWS_SUIT_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NEWS_SUIT_BOOTS);
+
+
     }
 }
