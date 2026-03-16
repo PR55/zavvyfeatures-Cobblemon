@@ -132,6 +132,15 @@
   "item.zavvyfeatures.alola_token": "Alolan Form",
   "item.zavvyfeatures.hisui_token": "Hisuian Form",
 
+  "sounds.zavvyfeatures.alph_radio": "~Alph Radio~",
+  "sounds.zavvyfeatures.ancient_pokemon": "~Ancient Pokemon Theme~",
+  "sounds.zavvyfeatures.cynthia": "~Cynthia Theme~",
+  "sounds.zavvyfeatures.gym_leader": "~Gym Leader Theme~",
+  "sounds.zavvyfeatures.hooh": "~Ho-Oh Theme~",
+  "sounds.zavvyfeatures.lugia": "~Lugia Theme~",
+  "sounds.zavvyfeatures.team_aqua": "~Team Aqua Theme~",
+  "sounds.zavvyfeatures.volo": "~Volo Battle Theme~",
+
   "block.zavvyfeatures.poke_spawner": "Token Spawner",
   "item.zavvyfeatures.spawner_wrench": "Token Spawner Wrench",
   "block.zavvyfeatures.incubator_zavvy": "Incubator",

@@ -16,5 +16,53 @@
     "sounds": [
       "zavvyfeatures:egg_ready"
     ]
+  },
+  "alph_radio": {
+    "subtitle": "sounds.zavvyfeatures.alph_radio",
+    "sounds": [
+      "zavvyfeatures:alph_radio"
+    ]
+  },
+  "ancient_pokemon": {
+    "subtitle": "sounds.zavvyfeatures.ancient_pokemon",
+    "sounds": [
+      "zavvyfeatures:ancient_pokemon"
+    ]
+  },
+  "cynthia": {
+    "subtitle": "sounds.zavvyfeatures.cynthia",
+    "sounds": [
+      "zavvyfeatures:cynthia"
+    ]
+  },
+  "gym_leader": {
+    "subtitle": "sounds.zavvyfeatures.gym_leader",
+    "sounds": [
+      "zavvyfeatures:gym_leader"
+    ]
+  },
+  "hooh": {
+    "subtitle": "sounds.zavvyfeatures.hooh",
+    "sounds": [
+      "zavvyfeatures:hooh"
+    ]
+  },
+  "lugia": {
+    "subtitle": "sounds.zavvyfeatures.lugia",
+    "sounds": [
+      "zavvyfeatures:lugia"
+    ]
+  },
+  "team_aqua": {
+    "subtitle": "sounds.zavvyfeatures.team_aqua",
+    "sounds": [
+      "zavvyfeatures:team_aqua"
+    ]
+  },
+  "volo": {
+    "subtitle": "sounds.zavvyfeatures.volo",
+    "sounds": [
+      "zavvyfeatures:volo"
+    ]
   }
 }
