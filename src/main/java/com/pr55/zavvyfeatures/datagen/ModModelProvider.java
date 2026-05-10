@@ -22,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
 //        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
 //        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
+//            blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLOUD);
+
     }
 
     @Override
@@ -56,6 +58,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EGG_ITEM_TOXEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.EGG_ITEM_TYROGUE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EGG_ITEM_WYNAUT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EGG_ITEM_ARTICUNO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EGG_ITEM_ZAPDOS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EGG_ITEM_MOLTRES, Models.GENERATED);
 
         // Gen 1
         itemModelGenerator.register(ModItems.BULBA_TOKEN, Models.GENERATED);
@@ -67,6 +72,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DRAT_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGNE_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.LAP_TOKEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNO_TOKEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DOS_TOKEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TRES_TOKEN, Models.GENERATED);
         // Gen 2
         itemModelGenerator.register(ModItems.CHIK_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.CYND_TOKEN, Models.GENERATED);

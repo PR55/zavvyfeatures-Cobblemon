@@ -7,6 +7,8 @@ import com.pr55.zavvyfeatures.block.entity.ModBlockEntities;
 import com.pr55.zavvyfeatures.component.ModDataComponentTypes;
 import com.pr55.zavvyfeatures.config.ModConfigs;
 import com.pr55.zavvyfeatures.effect.ModEffects;
+import com.pr55.zavvyfeatures.enchantment.ModEnchantmentEffects;
+import com.pr55.zavvyfeatures.enchantment.ModEnchantments;
 import com.pr55.zavvyfeatures.item.ModItemGroups;
 import com.pr55.zavvyfeatures.item.ModItems;
 import com.pr55.zavvyfeatures.sound.ModSounds;
@@ -58,6 +60,10 @@ public class Zavvyfeatures implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 		ModSounds.registerSounds();
 
+//		ModEnchantmentEffects.registerEnchantmentEffects();
+
+//		ModEnchantments.registerModEnchantments();
+
 		ModItems.registerModItems();
 		ModBlockEntities.registerBlockEntities();
 		ModBlocks.registerModBlocks();
@@ -77,6 +83,5 @@ public class Zavvyfeatures implements ModInitializer {
 //					new TradedItem(ModItems.IROM_COIN, 9),
 //					new ItemStack(ModItems.GOLD_COIN, 1), 999999999, 4, 0.0f, false));
 //		});
-
 	}
 }

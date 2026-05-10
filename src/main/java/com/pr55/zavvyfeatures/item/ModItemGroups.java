@@ -42,6 +42,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.zavvyfeatures.admin_items"))
                     .entries((displayContext, entries) -> {
 //                        entries.add(ModItems.TROLL_FACE_POINT);
+//                        entries.add(ModBlocks.CLOUD);
                         entries.add(ModBlocks.incubator);
                         entries.add(ModBlocks.incubator_sell);
                         entries.add(ModBlocks.CALANDER_BLOCK);
@@ -141,12 +142,18 @@ public class ModItemGroups {
                         entries.add(ModItems.EGG_ITEM_TOXEL);
                         entries.add(ModItems.EGG_ITEM_TYROGUE);
                         entries.add(ModItems.EGG_ITEM_WYNAUT);
+                        entries.add(ModItems.EGG_ITEM_ARTICUNO);
+                        entries.add(ModItems.EGG_ITEM_ZAPDOS);
+                        entries.add(ModItems.EGG_ITEM_MOLTRES);
                         // Gen 1
                         entries.add(ModItems.BULBA_TOKEN);
                         entries.add(ModItems.CHAR_TOKEN);
                         entries.add(ModItems.SQUIR_TOKEN);
                         entries.add(ModItems.PIKA_TOKEN);
                         entries.add(ModItems.EVE_TOKEN);
+                        entries.add(ModItems.UNO_TOKEN);
+                        entries.add(ModItems.DOS_TOKEN);
+                        entries.add(ModItems.TRES_TOKEN);
                         // Gen 2
                         entries.add(ModItems.CHIK_TOKEN);
                         entries.add(ModItems.CYND_TOKEN);

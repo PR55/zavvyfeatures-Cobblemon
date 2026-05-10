@@ -8,6 +8,7 @@ import com.pr55.zavvyfeatures.block.custom.pokeSpawner;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.CobwebBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -40,6 +41,10 @@ public class ModBlocks {
 
     public static final Block CALANDER_BLOCK = registerBlock("calendar_zavvy",
             new calanderBlock(AbstractBlock.Settings.create().resistance(2f).hardness(-1f).sounds(BlockSoundGroup.WOOL)));
+
+//    public static final Block CLOUD = registerBlock("cloud", new CobwebBlock(AbstractBlock.Settings.create().nonOpaque()
+//            .hardness(-1f).sounds(BlockSoundGroup.WOOL)
+//    ));
 
 
     private static Block registerBlock(String name, Block block){

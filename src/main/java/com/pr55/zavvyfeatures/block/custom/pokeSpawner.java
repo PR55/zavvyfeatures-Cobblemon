@@ -58,6 +58,9 @@ public class pokeSpawner extends Block {
         tokenValues.put(Registries.ITEM.getId(ModItems.MAGNE_TOKEN).toString(),"magnemite");
         tokenValues.put(Registries.ITEM.getId(ModItems.DRAT_TOKEN).toString(),"dratini");
         tokenValues.put(Registries.ITEM.getId(ModItems.AERODA_TOKEN).toString(),"aerodactyl");
+        tokenValues.put(Registries.ITEM.getId(ModItems.UNO_TOKEN).toString(),"articuno");
+        tokenValues.put(Registries.ITEM.getId(ModItems.DOS_TOKEN).toString(),"zapdos");
+        tokenValues.put(Registries.ITEM.getId(ModItems.TRES_TOKEN).toString(),"moltres");
         // Gen 2
         tokenValues.put(Registries.ITEM.getId(ModItems.CHIK_TOKEN).toString(),"chikorita");
         tokenValues.put(Registries.ITEM.getId(ModItems.CYND_TOKEN).toString(),"cyndaquil");

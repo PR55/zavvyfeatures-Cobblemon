@@ -55,6 +55,13 @@
   "item.zavvyfeatures.egg_item_tyrogue": "Unknown Egg",
   "item.zavvyfeatures.egg_item_toxel": "Unknown Egg",
   "item.zavvyfeatures.egg_item_wynaut": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_articuno": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_zapdos": "Unknown Egg",
+  "item.zavvyfeatures.egg_item_moltres": "Unknown Egg",
+
+  "tooltip.zavvyfeatures.egg_item_articuno.tooltip": "The surface of the shell feels near subzero. 1/%d shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_zapdos.tooltip": "You can feel currents of static on the surface. 1/%d shiny chance, §6Right Click§r to activate!",
+  "tooltip.zavvyfeatures.egg_item_moltres.tooltip": "Feels like currents of magma are churning inside. 1/%d shiny chance, §6Right Click§r to activate!",
 
 
   "item.zavvyfeatures.bulba_token":"Bulbasaur Token",
@@ -66,6 +73,9 @@
   "item.zavvyfeatures.drat_token":"Dratini Token",
   "item.zavvyfeatures.magne_token":"Magnemite Token",
   "item.zavvyfeatures.lap_token":"Lapras Token",
+  "item.zavvyfeatures.uno_token":"Articuno Token",
+  "item.zavvyfeatures.dos_token":"Zapdos Token",
+  "item.zavvyfeatures.tres_token":"Moltres Token",
 
   "item.zavvyfeatures.chik_token":"Chikorita Token",
   "item.zavvyfeatures.cynd_token":"Cyndaquil Token",
@@ -208,6 +218,8 @@
   "item.zavvyfeatures.jessie_boots_zavvy_alt4": "Rocket Boots (Jessie Alt. 4)",
 
   "zavvyfeatures.error.contact": "A fatal error has occured with the command, please press your screenshot key with the chat open and send the screenshot to PR55 in a dm on discord. Send with your minecraft username if this occurred on Zavvy's server! PR55(pr55)",
+
+  "enchantment.zavvyfeatures.ice_skater": "Ice Skater",
 
   "entity.minecraft.villager.zavvyfeatures.kaupenger": "Kaupenger"
 

@@ -25,6 +25,9 @@ public class ModItems {
     public static final Item DRAT_TOKEN = registerItem("drat_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item MAGNE_TOKEN = registerItem("magne_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item LAP_TOKEN = registerItem("lap_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
+    public static final Item UNO_TOKEN = registerItem("uno_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
+    public static final Item DOS_TOKEN = registerItem("dos_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
+    public static final Item TRES_TOKEN = registerItem("tres_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     // Gen 2
     public static final Item CHIK_TOKEN = registerItem("chik_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item CYND_TOKEN = registerItem("cynd_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
@@ -112,6 +115,9 @@ public class ModItems {
     public static final Item EGG_ITEM_TOXEL = registerItem("egg_item_toxel",new toxelEgg(new Item.Settings().maxCount(1)));
     public static final Item EGG_ITEM_TYROGUE = registerItem("egg_item_tyrogue",new tyrogueEgg(new Item.Settings().maxCount(1)));
     public static final Item EGG_ITEM_WYNAUT = registerItem("egg_item_wynaut",new wynautEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_ARTICUNO = registerItem("egg_item_articuno",new unoEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_ZAPDOS = registerItem("egg_item_zapdos",new dosEgg(new Item.Settings().maxCount(1)));
+    public static final Item EGG_ITEM_MOLTRES = registerItem("egg_item_moltres",new tresEgg(new Item.Settings().maxCount(1)));
 
 
     // Tools
