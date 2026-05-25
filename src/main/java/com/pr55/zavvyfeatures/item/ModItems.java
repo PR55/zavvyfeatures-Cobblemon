@@ -85,6 +85,7 @@ public class ModItems {
     public static final Item SOB_TOKEN = registerItem("sob_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item SNEASE_TOKEN = registerItem("snease_token", new PokeToken(new Item.Settings().maxCount(1).component(ModDataComponentTypes.HISUIAN, true))); // Done
     public static final Item TOX_TOKEN = registerItem("tox_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
+    public static final Item DREEP_TOKEN = registerItem("dreep_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     // Gen 9
     public static final Item SPRIG_TOKEN = registerItem("sprig_token", new PokeToken(new Item.Settings().maxCount(1))); // Done
     public static final Item COCO_TOKEN = registerItem("coco_token", new PokeToken(new Item.Settings().maxCount(1))); // Done

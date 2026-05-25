@@ -132,6 +132,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SOB_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOX_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.SNEASE_TOKEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DREEP_TOKEN, Models.GENERATED);
         // Gen 9
         itemModelGenerator.register(ModItems.SPRIG_TOKEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.COCO_TOKEN, Models.GENERATED);

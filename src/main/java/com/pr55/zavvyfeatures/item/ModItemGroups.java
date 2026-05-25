@@ -236,6 +236,7 @@ public class ModItemGroups {
 
                         // Gen 8
                         entries.add(ModItems.SNEASE_TOKEN);
+                        entries.add(ModItems.DREEP_TOKEN);
                         // Gen 9
 
                     }).build());

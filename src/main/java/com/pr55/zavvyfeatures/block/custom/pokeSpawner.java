@@ -119,6 +119,7 @@ public class pokeSpawner extends Block {
         tokenValues.put(Registries.ITEM.getId(ModItems.SOB_TOKEN).toString(),"sobble");
         tokenValues.put(Registries.ITEM.getId(ModItems.TOX_TOKEN).toString(),"toxel");
         tokenValues.put(Registries.ITEM.getId(ModItems.SNEASE_TOKEN).toString(),"sneasel");
+        tokenValues.put(Registries.ITEM.getId(ModItems.DREEP_TOKEN).toString(),"dreepy");
         // Gen 9
         tokenValues.put(Registries.ITEM.getId(ModItems.SPRIG_TOKEN).toString(),"sprigatito");
         tokenValues.put(Registries.ITEM.getId(ModItems.COCO_TOKEN).toString(),"fuecoco");
