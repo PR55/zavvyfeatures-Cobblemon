@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
 
@@ -131,6 +132,16 @@ public class ModItems {
     public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
     public static final Item DIAMOND_COIN = registerItem("diamond_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
     public static final Item EMERALD_COIN = registerItem("emerald_coin", new Item(new Item.Settings().fireproof().maxCount(64)));
+
+    //GYM TICKETS
+    public static final Item AZAELA_TICKET = registerItem("azalea_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item BLACKTHORN_TICKET = registerItem("blackthorn_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item CIANWOOD_TICKET = registerItem("cianwood_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item ECRUTEAK_TICKET = registerItem("ecruteak_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item GOLDENROD_TICKET = registerItem("goldenrod_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item MAHOGANY_TICKET = registerItem("mahogany_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item OLIVINE_TICKET = registerItem("olivine_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item VIOLET_TICKET = registerItem("violet_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
 
     // Armor
 

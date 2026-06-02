@@ -54,6 +54,15 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModItems.DIAMOND_COIN);
                         entries.add(ModItems.EMERALD_COIN);
+
+                        entries.add(ModItems.AZAELA_TICKET);
+                        entries.add(ModItems.BLACKTHORN_TICKET);
+                        entries.add(ModItems.CIANWOOD_TICKET);
+                        entries.add(ModItems.ECRUTEAK_TICKET);
+                        entries.add(ModItems.GOLDENROD_TICKET);
+                        entries.add(ModItems.MAHOGANY_TICKET);
+                        entries.add(ModItems.OLIVINE_TICKET);
+                        entries.add(ModItems.VIOLET_TICKET);
                     }).build());
 
     public static final ItemGroup RP_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

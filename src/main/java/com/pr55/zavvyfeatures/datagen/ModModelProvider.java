@@ -147,6 +147,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DIAMOND_COIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_COIN, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.AZAELA_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACKTHORN_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CIANWOOD_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ECRUTEAK_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLDENROD_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAHOGANY_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OLIVINE_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VIOLET_TICKET, Models.GENERATED);
+
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_LEGGINGS);

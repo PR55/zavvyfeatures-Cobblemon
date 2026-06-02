@@ -222,6 +222,15 @@
 
   "enchantment.zavvyfeatures.ice_skater": "Ice Skater",
 
-  "entity.minecraft.villager.zavvyfeatures.kaupenger": "Kaupenger"
+  "entity.minecraft.villager.zavvyfeatures.kaupenger": "Kaupenger",
+
+  "item.zavvyfeatures.azalea_ticket": "Azalea City Gym Ticket",
+  "item.zavvyfeatures.blackthorn_ticket": "Blackthorn City Gym Ticket",
+  "item.zavvyfeatures.cianwood_ticket": "Cianwood City Gym Ticket",
+  "item.zavvyfeatures.ecruteak_ticket": "Ecruteak City Gym Ticket",
+  "item.zavvyfeatures.goldenrod_ticket": "Goldenrod City Gym Ticket",
+  "item.zavvyfeatures.mahogany_ticket": "Mahogany City Gym Ticket",
+  "item.zavvyfeatures.olivine_ticket": "Olivine City Gym Ticket",
+  "item.zavvyfeatures.violet_ticket": "Violet City Gym Ticket"
 
 }
