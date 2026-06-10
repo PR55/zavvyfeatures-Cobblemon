@@ -160,6 +160,8 @@
   "block.zavvyfeatures.incubator_zavvy.tooltip_sell": "Used to hatch §6Poke Eggs§r automatically at a reduced rate, doubling the hatching time.",
   "block.zavvyfeatures.calendar_zavvy": "Event Calander",
   "block.zavvyfeatures.calendar_zavvy.tooltip": "W.I.P. A purely cosmetic calendar.",
+  "block.zavvyfeatures.poke_portal": "Poke Portal",
+  "block.zavvyfeatures.poke_portal.tooltip": "Nether Portal Replacement Block",
 
   "item.zavvyfeatures.copper_coin": "Copper Coin",
   "item.zavvyfeatures.iron_coin": "Iron Coin",

@@ -30,6 +30,9 @@ public class ModBlocks {
 //    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
 //            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
 
+    public static final Block POKE_PORTAL = registerBlock("poke_portal",
+            new Block(AbstractBlock.Settings.create().strength(3600000f).hardness(-1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
     public static final Block poke_block = registerBlock("poke_spawner",
             new pokeSpawner(AbstractBlock.Settings.create().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.STONE)));
 

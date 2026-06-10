@@ -10,6 +10,7 @@ import java.util.List;
 public class GeneralConfig extends MidnightConfig {
     public static final String EGG_TIMERS = "timers";
     public static final String EVENT_SCHEDULER = "events";
+    public static final String PORTAL_CONTROLS = "portal_controls";
 
     @Comment(category = EGG_TIMERS, centered = true)public static Comment text1;
     @Entry(category = EGG_TIMERS, name = "Common Egg Timer")public static int commonEgg = 3600;
@@ -35,6 +36,10 @@ public class GeneralConfig extends MidnightConfig {
     public enum timezoneEnum{
         GMT,EST,CST,PST,JST
     }
+
+    @Comment(category = PORTAL_CONTROLS)public static Comment text4;
+    @Entry(category = PORTAL_CONTROLS) public static boolean toggleNetherPortal = true;
+    @Entry(category = PORTAL_CONTROLS) public static boolean toggleEndPortal = true;
 
 
 }

@@ -43,6 +43,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 //                        entries.add(ModItems.TROLL_FACE_POINT);
 //                        entries.add(ModBlocks.CLOUD);
+                        entries.add(ModBlocks.POKE_PORTAL);
                         entries.add(ModBlocks.incubator);
                         entries.add(ModBlocks.incubator_sell);
                         entries.add(ModBlocks.CALANDER_BLOCK);
