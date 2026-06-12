@@ -185,13 +185,13 @@ public class pokeSpawner extends Block {
 
                 if(stack.get(ModDataComponentTypes.ALOLAN) != null){
                     if(stack.get(ModDataComponentTypes.ALOLAN)){
-                        cmString += " alolan";
+                        cmString += " region_bias=alola";
                     }
                 }
 
                 if(stack.get(ModDataComponentTypes.HISUIAN) != null){
                     if(stack.get(ModDataComponentTypes.HISUIAN)){
-                        cmString += " hisuian";
+                        cmString += " region_bias=hisui";
                     }
                 }
 
