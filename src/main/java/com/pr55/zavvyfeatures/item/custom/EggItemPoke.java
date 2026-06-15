@@ -1,5 +1,6 @@
 package com.pr55.zavvyfeatures.item.custom;
 
+import com.cobblemon.mod.relocations.oracle.truffle.js.builtins.ConsoleBuiltins;
 import com.pr55.zavvyfeatures.Zavvyfeatures;
 import com.pr55.zavvyfeatures.config.custom.GeneralConfig;
 import com.pr55.zavvyfeatures.item.ModItems;
@@ -21,7 +22,7 @@ import com.pr55.zavvyfeatures.component.ModDataComponentTypes;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
+import java.security.SecureRandom;
 
 public class EggItemPoke extends Item {
 
@@ -30,7 +31,7 @@ public class EggItemPoke extends Item {
     int SHINY_CHANCE = 8192;
     String ACTIVATE_GUIDE = "tooltip.zavvyfeatures.common";
     ArrayList<Item> tokens = new ArrayList<>();
-    Random random = new Random();
+    SecureRandom random = new SecureRandom();
     List<Item> alolanForms = Arrays.asList(
             ModItems.PIKA_TOKEN,
             ModItems.PICHU_TOKEN
@@ -246,7 +247,7 @@ public class EggItemPoke extends Item {
         }
 
     }
-
+// /give Player309 zavvyfeatures:egg_item_rare[zavvyfeatures:active=true,zavvyfeatures:seconds=0,zavvyfeatures:hatchable=true,zavvyfeatures:timer=0]
     public void handleRandomUse(ItemStack stack, PlayerEntity user){
         stack.decrement(1);
         Item chosen = randomPoke();
@@ -278,9 +279,12 @@ public class EggItemPoke extends Item {
     }
 
     public boolean isShiny(){
-        double r = random.nextDouble(SHINY_CHANCE);
+        random.setSeed(System.currentTimeMillis());
+        double r = random.nextDouble(0, 1);
 
-        if(r < (double) 1/SHINY_CHANCE) return true;
+        Zavvyfeatures.LOGGER.info("[RANDOM GEN]\nObtained: " + (r) +"\n\nTarget: " + (1.0/SHINY_CHANCE));
+
+        if(r <= 1.0/SHINY_CHANCE) return true;
         else return false;
     }
 
@@ -295,8 +299,11 @@ public class EggItemPoke extends Item {
     }
 
     public boolean isAlternateForm(){
-        return random.nextInt(10) < 3;
+        return random.nextInt(0,10) < 3;
     }
 
+    private double randomNumShiny(double min, double max){
+        return random.nextDouble(0,1) * ((((random.nextDouble(min,max)))) - 1);
+    }
 
 }

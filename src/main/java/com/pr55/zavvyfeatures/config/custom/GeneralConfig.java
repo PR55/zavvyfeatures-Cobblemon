@@ -17,7 +17,7 @@ public class GeneralConfig extends MidnightConfig {
     @Entry(category = EGG_TIMERS, name = "Common Egg Shiny Rate", isSlider = true, max = 8192, min=2)public static int commonEggRate = 128;
     @Entry(category = EGG_TIMERS, name = "Uncommon Egg Timer")public static int uncommonEgg = 7200;
     @Entry(category = EGG_TIMERS, name = "Uncommon Egg Shiny Rate", isSlider = true, max = 8192, min=2)public static int uncommonEggRate = 98;
-    @Entry(category = EGG_TIMERS, name = "Rare Egg Timer")public static int rareEgg = 14400;
+    @Entry(category = EGG_TIMERS, name = "Rare Egg Timer")public static int rareEgg = 20;
     @Entry(category = EGG_TIMERS, name = "Rare Egg Shiny Rate", isSlider = true, max = 8192, min=2)public static int rareEggRate = 64;
     @Entry(category = EGG_TIMERS, name = "Epic Egg Timer")public static int epicEgg = 28800;
     @Entry(category = EGG_TIMERS, name = "Epic Egg Shiny Rate", isSlider = true, max = 8192, min=2)public static int epicEggRate = 48;
