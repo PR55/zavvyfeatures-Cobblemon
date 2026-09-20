@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.pr55.cobblemonservertools.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"CustomEffects",
+		"NetherFrameReplacement",
+		"DisableEnderEye"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

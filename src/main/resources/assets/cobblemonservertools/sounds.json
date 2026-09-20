@@ -1,0 +1,68 @@
+{
+  "egg_use":{
+    "subtitle": "sounds.cobblemonservertools.egg_use",
+    "sounds": [
+      "cobblemonservertools:egg_use"
+    ]
+  },
+  "egg_deny": {
+    "subtitle": "sounds.cobblemonservertools.egg_deny",
+    "sounds": [
+        "cobblemonservertools:egg_deny"
+    ]
+  },
+  "egg_ready": {
+    "subtitle": "sounds.cobblemonservertools.egg_ready",
+    "sounds": [
+      "cobblemonservertools:egg_ready"
+    ]
+  },
+  "alph_radio": {
+    "subtitle": "sounds.cobblemonservertools.alph_radio",
+    "sounds": [
+      "cobblemonservertools:alph_radio"
+    ]
+  },
+  "ancient_pokemon": {
+    "subtitle": "sounds.cobblemonservertools.ancient_pokemon",
+    "sounds": [
+      "cobblemonservertools:ancient_pokemon"
+    ]
+  },
+  "cynthia": {
+    "subtitle": "sounds.cobblemonservertools.cynthia",
+    "sounds": [
+      "cobblemonservertools:cynthia"
+    ]
+  },
+  "gym_leader": {
+    "subtitle": "sounds.cobblemonservertools.gym_leader",
+    "sounds": [
+      "cobblemonservertools:gym_leader"
+    ]
+  },
+  "hooh": {
+    "subtitle": "sounds.cobblemonservertools.hooh",
+    "sounds": [
+      "cobblemonservertools:hooh"
+    ]
+  },
+  "lugia": {
+    "subtitle": "sounds.cobblemonservertools.lugia",
+    "sounds": [
+      "cobblemonservertools:lugia"
+    ]
+  },
+  "team_aqua": {
+    "subtitle": "sounds.cobblemonservertools.team_aqua",
+    "sounds": [
+      "cobblemonservertools:team_aqua"
+    ]
+  },
+  "volo": {
+    "subtitle": "sounds.cobblemonservertools.volo",
+    "sounds": [
+      "cobblemonservertools:volo"
+    ]
+  }
+}

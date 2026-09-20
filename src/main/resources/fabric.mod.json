@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "zavvyfeatures",
+	"id": "cobblemonservertools",
 	"version": "1.2.4",
 	"name": "Cobblemon Server Features",
 	"description": "A collection of utility items and blocks, to streamline new features for cobblemon servers. \n\nOpen to use and made at the request of Zavvy.\n\nView her streams at 'twitch.tv/zavvy'",
@@ -10,31 +10,31 @@
 	],
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-server-tools",
-		"issues": "https://github.com/PR55/zavvyfeatures-Cobblemon/issues"
+		"issues": "https://github.com/PR55/cobblemonservertools-Cobblemon/issues"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/zavvyfeatures/icon.png",
+	"icon": "assets/cobblemonservertools/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.pr55.zavvyfeatures.Zavvyfeatures"
+			"com.pr55.cobblemonservertools.Zavvyfeatures"
 		],
 		"fabric-datagen": [
-			"com.pr55.zavvyfeatures.ZavvyfeaturesDataGenerator"
+			"com.pr55.cobblemonservertools.ZavvyfeaturesDataGenerator"
 		],
 		"client": [
-			"com.pr55.zavvyfeatures.ZavvyfeaturesClient"
+			"com.pr55.cobblemonservertools.ZavvyfeaturesClient"
 		]
 	},
 	"mixins": [
-		"zavvyfeatures.mixins.json"
+		"cobblemonservertools.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.0",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"cobblemon": ">=1.7.2",
+		"cobblemon": ">=1.8.1",
 		"geckolib": "=4.8.3"
 	}
 }

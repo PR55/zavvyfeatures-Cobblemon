@@ -1,0 +1,70 @@
+package com.pr55.cobblemonservertools.block;
+
+import com.pr55.cobblemonservertools.Zavvyfeatures;
+import com.pr55.cobblemonservertools.block.custom.calanderBlock;
+import com.pr55.cobblemonservertools.block.custom.incubatorBlock;
+import com.pr55.cobblemonservertools.block.custom.incubatorBlockSellable;
+import com.pr55.cobblemonservertools.block.custom.pokeSpawner;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.Identifier;
+
+public class ModBlocks {
+
+//    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+//
+//    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
+//
+//    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
+//
+//    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
+//            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
+
+    public static final Block POKE_PORTAL = registerBlock("poke_portal",
+            new Block(AbstractBlock.Settings.create().strength(3600000f).hardness(-1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block poke_block = registerBlock("poke_spawner",
+            new pokeSpawner(AbstractBlock.Settings.create().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.STONE)));
+
+    public static final Block incubator = registerBlock("incubator_zavvy",
+            new incubatorBlock(AbstractBlock.Settings.create().nonOpaque().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlock.ITEM_CONTAINED) == 1 ? 12 : 0)));
+
+    public static final Block incubator_sell = registerBlock("incubator_zavvy_sell",
+            new incubatorBlockSellable(AbstractBlock.Settings.create().nonOpaque().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlockSellable.ITEM_CONTAINED) == 1 ? 12 : 0)));
+
+    public static final Block CALANDER_BLOCK = registerBlock("calendar_zavvy",
+            new calanderBlock(AbstractBlock.Settings.create().resistance(2f).hardness(-1f).sounds(BlockSoundGroup.WOOL)));
+
+//    public static final Block CLOUD = registerBlock("cloud", new CobwebBlock(AbstractBlock.Settings.create().nonOpaque()
+//            .hardness(-1f).sounds(BlockSoundGroup.WOOL)
+//    ));
+
+
+    private static Block registerBlock(String name, Block block){
+        registerBlockItem(name,block);
+        return Registry.register(Registries.BLOCK,Identifier.of(Zavvyfeatures.MOD_ID, name),block);
+    }
+
+    private static void registerBlockItem(String name, Block block){
+        Registry.register(Registries.ITEM, Identifier.of(Zavvyfeatures.MOD_ID, name), new BlockItem(block, new Item.Settings()));
+    }
+
+    public static void registerModBlocks(){
+        Zavvyfeatures.LOGGER.info("Registering Mod Blocks for " + Zavvyfeatures.MOD_ID);
+
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+//            entries.add(ModBlocks.PINK_GARNET_BLOCK);
+//            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+//            entries.add(ModBlocks.PINK_GARNET_ORE);
+//            entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+//        });
+    }
+}

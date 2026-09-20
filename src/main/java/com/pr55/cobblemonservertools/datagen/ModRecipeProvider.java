@@ -1,0 +1,60 @@
+package com.pr55.cobblemonservertools.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.registry.RegistryWrapper;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModRecipeProvider extends FabricRecipeProvider {
+    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(output, registriesFuture);
+    }
+
+    @Override
+    public void generate(RecipeExporter exporter) {
+        // Left for reference until new recipes are made
+//        List<ItemConvertible> PINK_GARNET_SMELTABLES = List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE,
+//                ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+//
+//        offerSmelting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 200, "pink_garnet");
+//        offerBlasting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 100, "pink_garnet");
+//
+//        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.PINK_GARNET_BLOCK);
+//
+//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_PINK_GARNET_BLOCK)
+//                .pattern("RRR")
+//                .pattern("RRR")
+//                .pattern("RRR")
+//                .input('R', ModItems.RAW_PINK_GARNET)
+//                .criterion(hasItem(ModItems.RAW_PINK_GARNET), conditionsFromItem(ModItems.RAW_PINK_GARNET))
+//                .offerTo(exporter);
+//
+//        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
+//                .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
+//                .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.RAW_PINK_GARNET_BLOCK))
+//                .offerTo(exporter);
+//
+//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.poke_block)
+//                .pattern("ROR")
+//                .pattern("ADA")
+//                .pattern("QOQ")
+//                .input('R', Items.REDSTONE_BLOCK)
+//                .input('Q', Items.QUARTZ_BLOCK)
+//                .input('D', Items.DIAMOND_BLOCK)
+//                .input('O', Items.OBSIDIAN)
+//                .input('A', Items.AMETHYST_SHARD)
+//                .criterion(hasItem(Items.DIAMOND_BLOCK), conditionsFromItem(Items.DIAMOND_BLOCK))
+//                .offerTo(exporter);
+//
+//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SPAWNER_WRENCH)
+//                .pattern("I I")
+//                .pattern(" I ")
+//                .pattern(" L ")
+//                .input('I', Items.IRON_INGOT)
+//                .input('L', Items.LEATHER)
+//                .criterion(hasItem(Items.DIAMOND_BLOCK), conditionsFromItem(Items.DIAMOND_BLOCK))
+//                .offerTo(exporter);
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cobblemonservertools.mark.zavvyslove",
+  "title": "cobblemonservertools.mark.zavvyslove.title",
+  "titleColor": "CE3A49",
+  "description": "cobblemonservertools.mark.zavvyslove.desc",
+  "texture": "cobblemonservertools:textures/gui/mark/zavvyslove.png",
+  "indexNumber": 9975,
+  "aspects": ["alpha_eyes"]
+
+}
