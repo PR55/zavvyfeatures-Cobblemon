@@ -27,6 +27,7 @@
   "tooltip.cobblemonservertools.egg_item_togepi.tooltip": "Unknown Egg, 1/%d shiny chance, §6Right Click§r to activate!",
   "item.cobblemonservertools.egg_item_pichu": "Unknown Egg",
   "tooltip.cobblemonservertools.egg_item_pichu.tooltip": "Unknown Egg, 1/%d shiny chance, §6Right Click§r to activate!",
+  "tooltip.cobblemonservertools.nickname_token.tooltip": "Nickname: §6%s§r",
   "item.cobblemonservertools.egg_item_azurill": "Unknown Egg",
   "item.cobblemonservertools.egg_item_bonsly": "Unknown Egg",
   "item.cobblemonservertools.egg_item_budew": "Unknown Egg",

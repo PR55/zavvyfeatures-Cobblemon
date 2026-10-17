@@ -35,6 +35,10 @@ public class PokeToken extends Item {
             tooltip.add(Text.translatable("item.cobblemonservertools.shiny_token"));
         }
 
+        if(stack.get(ModDataComponentTypes.NAMED) != null && stack.get(ModDataComponentTypes.NAMED) != ""){
+                tooltip.add(Text.translatable("tooltip.cobblemonservertools.nickname_token.tooltip", stack.get(ModDataComponentTypes.NAMED)));
+        }
+
         if(stack.get(ModDataComponentTypes.ALPHA) != null && stack.get(ModDataComponentTypes.ALPHA)){
             tooltip.add(Text.translatable("item.cobblemonservertools.alpha_token"));
         }
