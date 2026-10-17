@@ -220,7 +220,7 @@ public class pokeSpawner extends Block {
                 cmString += " scale_modifier=" + r;
 
                 if(stack.get(ModDataComponentTypes.NAMED) != null){
-                    cmString += " nickname=" + stack.get(ModDataComponentTypes.NAMED);
+                    cmString += " nickname=\"" + stack.get(ModDataComponentTypes.NAMED) + "\"";
                 }
 
                 try {
