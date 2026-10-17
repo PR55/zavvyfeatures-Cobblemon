@@ -40,6 +40,10 @@ public class ModDataComponentTypes {
             "zavvy_hisui",
             builder -> ComponentType.<Boolean>builder().codec(Codec.BOOL));
 
+    public static final ComponentType<String> NAMED = register(
+            "zavvy_named",
+            builder -> ComponentType.<String>builder().codec(Codec.STRING));
+
 
     private  static <T>ComponentType<T> register(String name, UnaryOperator<ComponentType.Builder<T>> builderOperator){
         return Registry.register(Registries.DATA_COMPONENT_TYPE, Identifier.of(Zavvyfeatures.MOD_ID, name),

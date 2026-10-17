@@ -8,6 +8,7 @@ import com.pr55.cobblemonservertools.effect.ModEffects;
 import com.pr55.cobblemonservertools.item.ModItemGroups;
 import com.pr55.cobblemonservertools.item.ModItems;
 import com.pr55.cobblemonservertools.sound.ModSounds;
+import com.pr55.cobblemonservertools.world.gen.ModWorldGenerator;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -48,6 +49,8 @@ public class Zavvyfeatures implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModEffects.registerEffects();
+
+		ModWorldGenerator.generateWorldGen();
 
 //		ModVillagers.registerVillagers();
 //

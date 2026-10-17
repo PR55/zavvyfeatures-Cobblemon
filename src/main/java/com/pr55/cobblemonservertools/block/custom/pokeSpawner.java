@@ -29,6 +29,7 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 import net.minecraft.state.property.IntProperty;
 
+import java.security.SecureRandom;
 import java.util.HashMap;
 
 public class pokeSpawner extends Block {
@@ -37,8 +38,12 @@ public class pokeSpawner extends Block {
 
     HashMap<String, String> tokenValues = new HashMap<>();
 
+    HashMap<String, String> alttokenValues = new HashMap<>();
+
+
     public static final IntProperty POKESPAWNERDIRECTION = IntProperty.of("pokespawnerdirection",0,5);
     public static final IntProperty POKESPAWNERDISTANCE = IntProperty.of("pokespawnerdistance",1,5);
+    SecureRandom random = new SecureRandom();
 
     public pokeSpawner(Settings settings){
         super(settings);
@@ -117,6 +122,7 @@ public class pokeSpawner extends Block {
         tokenValues.put(Registries.ITEM.getId(ModItems.TOX_TOKEN).toString(),"toxel");
         tokenValues.put(Registries.ITEM.getId(ModItems.SNEASE_TOKEN).toString(),"sneasel");
         tokenValues.put(Registries.ITEM.getId(ModItems.DREEP_TOKEN).toString(),"dreepy");
+        alttokenValues.put(Registries.ITEM.getId(ModItems.SNEASE_TOKEN).toString(),"sneasel");
         // Gen 9
         tokenValues.put(Registries.ITEM.getId(ModItems.SPRIG_TOKEN).toString(),"sprigatito");
         tokenValues.put(Registries.ITEM.getId(ModItems.COCO_TOKEN).toString(),"fuecoco");
@@ -173,17 +179,25 @@ public class pokeSpawner extends Block {
                     pos2 = pos.add(0,0,-distance); // North
                 }
                 Identifier itemId = Registries.ITEM.getId(token);
-                String cmString = "pokespawnat " + pos2.getX() + " " + pos2.getY() + " " + pos2.getZ() + " " + tokenValues.get(itemId.toString()) + " status=paralysis";
+                String cmString = "execute in " + player.getWorld().getDimensionEntry().getIdAsString() + " run pokespawnat " + pos2.getX() + " " + pos2.getY() + " " + pos2.getZ() + " " + tokenValues.get(itemId.toString()) + " status=paralysis";
                 if(stack.get(ModDataComponentTypes.SHINY) != null){
                     if(stack.get(ModDataComponentTypes.SHINY)){
                         cmString += " shiny=true";
                     }
                 }
 
+                random.setSeed(System.currentTimeMillis());
+                double r = 1.0;
+
                 if(stack.get(ModDataComponentTypes.ALPHA) != null){
                     if(stack.get(ModDataComponentTypes.ALPHA)){
                         cmString += " alpha=true";
+                        r = random.nextDouble(1.0, 2.0);
+                    }else{
+                        r = random.nextDouble(0.834, 1.25);
                     }
+                }else{
+                    r = random.nextDouble(0.834, 1.25);
                 }
 
                 if(stack.get(ModDataComponentTypes.ALOLAN) != null){
@@ -194,8 +208,19 @@ public class pokeSpawner extends Block {
 
                 if(stack.get(ModDataComponentTypes.HISUIAN) != null){
                     if(stack.get(ModDataComponentTypes.HISUIAN)){
-                        cmString += " region_bias=hisui";
+                        String altNAme = alttokenValues.get(itemId.toString());
+                        if(altNAme != null){
+                            cmString += " hisuian=true";
+                        }else{
+                            cmString += " region_bias=hisui";
+                        }
                     }
+                }
+
+                cmString += " scale_modifier=" + r;
+
+                if(stack.get(ModDataComponentTypes.NAMED) != null){
+                    cmString += " nickname=" + stack.get(ModDataComponentTypes.NAMED);
                 }
 
                 try {
@@ -206,6 +231,11 @@ public class pokeSpawner extends Block {
                     }else{
                         Zavvyfeatures.LOGGER.info("Source is null!");
                     }
+
+                    Zavvyfeatures.LOGGER.info("Current Dimension!");
+                    Zavvyfeatures.LOGGER.info(world.getDimension().toString());
+                    Zavvyfeatures.LOGGER.info(world.getDimensionEntry().getIdAsString());
+                    Zavvyfeatures.LOGGER.info(player.getWorld().getDimensionEntry().getIdAsString());
                     dispatcher.execute(cmString, source);
 
                     world.playSound(null, pos, ModSounds.EGG_USE, SoundCategory.BLOCKS, 1f,1f);

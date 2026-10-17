@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "cobblemonservertools",
-	"version": "1.2.4",
+	"version": "1.2.6",
 	"name": "Cobblemon Server Features",
 	"description": "A collection of utility items and blocks, to streamline new features for cobblemon servers. \n\nOpen to use and made at the request of Zavvy.\n\nView her streams at 'twitch.tv/zavvy'",
 	"authors": [
@@ -34,7 +34,7 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"cobblemon": ">=1.8.1",
+		"cobblemon": ">=1.8.2",
 		"geckolib": "=4.8.3"
 	}
 }
