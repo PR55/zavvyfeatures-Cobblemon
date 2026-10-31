@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "cobblemonservertools:block/poke_spawner_bottom_user",
+    "down": "cobblemonservertools:block/poke_spawner_bottom_user",
+    "south": "cobblemonservertools:block/poke_spawner_bottom_user",
+    "north": "cobblemonservertools:block/poke_spawner_bottom_user",
+    "west": "cobblemonservertools:block/poke_spawner_bottom_user",
+    "east": "cobblemonservertools:block/poke_spawner_bottom_user",
+    "particle": "cobblemonservertools:block/poke_spawner_bottom_user"
+  }
+}

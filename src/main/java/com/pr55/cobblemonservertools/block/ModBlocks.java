@@ -7,6 +7,7 @@ import com.pr55.cobblemonservertools.block.custom.incubatorBlockSellable;
 import com.pr55.cobblemonservertools.block.custom.pokeSpawner;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -34,11 +35,14 @@ public class ModBlocks {
     public static final Block poke_block = registerBlock("poke_spawner",
             new pokeSpawner(AbstractBlock.Settings.create().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.STONE)));
 
+    public static final Block poke_block_user = registerBlock("poke_spawner_user",
+            new pokeSpawner(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(25.0F, 3200.0F)));
+
     public static final Block incubator = registerBlock("incubator_zavvy",
             new incubatorBlock(AbstractBlock.Settings.create().nonOpaque().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlock.ITEM_CONTAINED) == 1 ? 12 : 0)));
 
     public static final Block incubator_sell = registerBlock("incubator_zavvy_sell",
-            new incubatorBlockSellable(AbstractBlock.Settings.create().nonOpaque().resistance(3600000f).hardness(-1f).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlockSellable.ITEM_CONTAINED) == 1 ? 12 : 0)));
+            new incubatorBlockSellable(AbstractBlock.Settings.create().nonOpaque().requiresTool().strength(10.0F, 3200.0F).sounds(BlockSoundGroup.GLASS).luminance(state -> state.get(incubatorBlockSellable.ITEM_CONTAINED) == 1 ? 12 : 0)));
 
     public static final Block CALANDER_BLOCK = registerBlock("calendar_zavvy",
             new calanderBlock(AbstractBlock.Settings.create().resistance(2f).hardness(-1f).sounds(BlockSoundGroup.WOOL)));

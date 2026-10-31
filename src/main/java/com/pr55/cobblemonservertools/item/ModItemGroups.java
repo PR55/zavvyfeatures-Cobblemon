@@ -48,6 +48,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.incubator_sell);
                         entries.add(ModBlocks.CALANDER_BLOCK);
                         entries.add(ModBlocks.poke_block);
+                        entries.add(ModBlocks.poke_block_user);
                         entries.add(ModItems.SPAWNER_WRENCH);
 
                         entries.add(ModItems.COPPER_COIN);

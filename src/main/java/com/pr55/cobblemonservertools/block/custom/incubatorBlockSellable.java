@@ -44,7 +44,7 @@ public class incubatorBlockSellable extends BlockWithEntity implements BlockEnti
     @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
 
-        tooltip.add(Text.translatable("block.cobblemonservertools.incubator_zavvy.tooltip"));
+        tooltip.add(Text.translatable("block.cobblemonservertools.incubator_zavvy.tooltip_sell"));
 
         super.appendTooltip(stack, context, tooltip, options);
     }
