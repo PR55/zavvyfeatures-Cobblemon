@@ -2,6 +2,7 @@ package com.pr55.cobblemonservertools.mixin;
 // (state, world, pos) -> state.isOf(Blocks.OBSIDIAN);
 
 
+import com.pr55.cobblemonservertools.config.custom.MixinConfig;
 import net.minecraft.item.EnderEyeItem;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.util.ActionResult;
@@ -21,8 +22,9 @@ public class DisableEnderEye {
 
     @Inject(method="useOnBlock",at = @At("HEAD"), cancellable = true)
     protected void injectUseOnBlockMethod(ItemUsageContext context, CallbackInfoReturnable<ActionResult> cir){
-
-        cir.setReturnValue(ActionResult.FAIL);
+        if(MixinConfig.toggleEndPortal){
+            cir.setReturnValue(ActionResult.FAIL);
+        }
     }
 }
 

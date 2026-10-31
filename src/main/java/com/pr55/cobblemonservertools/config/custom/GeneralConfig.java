@@ -7,8 +7,6 @@ import java.util.List;
 
 public class GeneralConfig extends MidnightConfig {
     public static final String EGG_TIMERS = "timers";
-    public static final String EVENT_SCHEDULER = "events";
-    public static final String PORTAL_CONTROLS = "portal_controls";
 
     @Comment(category = EGG_TIMERS, centered = true)public static Comment text1;
     @Entry(category = EGG_TIMERS, name = "Common Egg Timer")public static int commonEgg = 3600;
@@ -23,21 +21,4 @@ public class GeneralConfig extends MidnightConfig {
     @Entry(category = EGG_TIMERS, name = "Legendary Egg Shiny Rate", isSlider = true, max = 8192, min=2)public static int legendaryEggRate = 32;
     @Entry(category = EGG_TIMERS, name = "Baby Eggs Timer")public static int babyEgg = 14400;
     @Entry(category = EGG_TIMERS, name = "Baby Eggs Shiny Rate", isSlider = true, max = 8192, min=2)public static int babyEggRate = 64;
-
-
-
-    @Comment(category = EVENT_SCHEDULER)public static Comment text2;
-    @Entry(category = EVENT_SCHEDULER, name = "Events Timezone")public static timezoneEnum text3 = timezoneEnum.EST;
-    @Entry(category = EVENT_SCHEDULER, name = "Event Name") public static List<String> eventTitle = Arrays.asList("Server Opening Battle Tournament","Server Closing battle Tournament");
-    @Entry(category = EVENT_SCHEDULER, name = "Event Date (MM-DD-YYYY )") public static List<String> eventDate = Arrays.asList("02-28-2026 22:00:00","04-01-2026 17:30:55");
-    @Entry(category = EVENT_SCHEDULER, name = "Event Location ('x y z')") public static List<String> eventLocation = Arrays.asList("0 0 0","0 0 0");
-    public enum timezoneEnum{
-        GMT,EST,CST,PST,JST
-    }
-
-    @Comment(category = PORTAL_CONTROLS)public static Comment text4;
-    @Entry(category = PORTAL_CONTROLS) public static boolean toggleNetherPortal = true;
-    @Entry(category = PORTAL_CONTROLS) public static boolean toggleEndPortal = true;
-
-
 }
