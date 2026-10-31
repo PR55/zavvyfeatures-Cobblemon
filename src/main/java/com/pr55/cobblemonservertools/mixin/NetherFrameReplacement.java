@@ -10,8 +10,8 @@ import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(NetherPortal.class)
 public class NetherFrameReplacement {
-    @Shadow
-    public static AbstractBlock.ContextPredicate IS_VALID_FRAME_BLOCK = (state, world, pos) -> state.isOf(ModBlocks.POKE_PORTAL);
+//    @Shadow
+//    public static AbstractBlock.ContextPredicate IS_VALID_FRAME_BLOCK = (state, world, pos) -> state.isOf(ModBlocks.POKE_PORTAL);
 
 }
 
