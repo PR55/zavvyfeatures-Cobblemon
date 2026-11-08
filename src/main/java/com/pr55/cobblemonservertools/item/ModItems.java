@@ -241,6 +241,16 @@ public class ModItems {
     public static final Item NEWS_SUIT_BOOTS = registerItem("news_suit_zavvy_boots",
             new NewsSuittItem(ModArmorMaterials.NEWS_SUITS_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
 
+    //Officer Jenny
+    public static final Item JENNY_HELMET = registerItem("jenny_helmet_zavvy",
+            new JennyArmorItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxCount(1)));
+    public static final Item JENNY_CHESTPLATE = registerItem("jenny_chestplate_zavvy",
+            new JennyArmorItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxCount(1)));
+    public static final Item JENNY_LEGGINGS = registerItem("jenny_leggings_zavvy",
+            new JennyArmorItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxCount(1)));
+    public static final Item JENNY_BOOTS = registerItem("jenny_boots_zavvy",
+            new JennyArmorItem(ModArmorMaterials.JAMES_ROCKET_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxCount(1)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Zavvyfeatures.MOD_ID,name), item);
     }

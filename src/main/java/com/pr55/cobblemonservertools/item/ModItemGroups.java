@@ -74,6 +74,12 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.cobblemonservertools.rp_items"))
                     .entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.JENNY_HELMET);
+                        entries.add(ModItems.JENNY_CHESTPLATE);
+                        entries.add(ModItems.JENNY_LEGGINGS);
+                        entries.add(ModItems.JENNY_BOOTS);
+
+
                         entries.add(ModItems.NEWS_SUIT_CHESTPLATE);
                         entries.add(ModItems.NEWS_SUIT_CHESTPLATE_2);
                         entries.add(ModItems.NEWS_SUIT_CHESTPLATE_3);

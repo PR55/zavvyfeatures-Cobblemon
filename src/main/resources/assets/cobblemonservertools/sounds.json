@@ -64,5 +64,17 @@
     "sounds": [
       "cobblemonservertools:volo"
     ]
+  },
+  "police_siren": {
+    "subtitle": "sounds.cobblemonservertools.police_siren",
+    "sounds": [
+      "cobblemonservertools:police_siren"
+    ]
+  },
+  "fbi_raid": {
+    "subtitle": "sounds.cobblemonservertools.fbi_raid",
+    "sounds": [
+      "cobblemonservertools:fbi_raid"
+    ]
   }
 }
