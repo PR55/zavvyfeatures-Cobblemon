@@ -12,6 +12,9 @@ public class ModSounds {
     public static final SoundEvent EGG_DENY = registerSoundEvent("egg_deny");
     public static final SoundEvent EGG_READY = registerSoundEvent("egg_ready");
 
+    public static final SoundEvent POLICE_SIREN = registerSoundEvent("police_siren");
+    public static final SoundEvent FBI_RAID = registerSoundEvent("fbi_raid");
+
     private static SoundEvent registerSoundEvent(String name){
         Identifier id = Identifier.of(Zavvyfeatures.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
