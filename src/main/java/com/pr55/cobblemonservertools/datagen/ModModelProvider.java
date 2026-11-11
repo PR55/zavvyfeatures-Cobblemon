@@ -155,6 +155,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAHOGANY_TICKET, Models.GENERATED);
         itemModelGenerator.register(ModItems.OLIVINE_TICKET, Models.GENERATED);
         itemModelGenerator.register(ModItems.VIOLET_TICKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLAKE_BADGE, Models.GENERATED);
 
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.JAMES_CHESTPLATE);

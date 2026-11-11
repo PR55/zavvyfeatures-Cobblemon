@@ -41,8 +41,6 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack((ModBlocks.poke_block)))
                     .displayName(Text.translatable("itemgroup.cobblemonservertools.admin_items"))
                     .entries((displayContext, entries) -> {
-//                        entries.add(ModItems.TROLL_FACE_POINT);
-//                        entries.add(ModBlocks.CLOUD);
                         entries.add(ModBlocks.POKE_PORTAL);
                         entries.add(ModBlocks.incubator);
                         entries.add(ModBlocks.incubator_sell);
@@ -56,6 +54,16 @@ public class ModItemGroups {
                         entries.add(ModItems.DIAMOND_COIN);
                         entries.add(ModItems.EMERALD_COIN);
 
+                    }).build());
+
+    public static final ItemGroup GYM_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Zavvyfeatures.MOD_ID,"gym_items"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack((ModItems.AZAELA_TICKET)))
+                    .displayName(Text.translatable("itemgroup.cobblemonservertools.gym_items"))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.FLAKE_BADGE);
                         entries.add(ModItems.AZAELA_TICKET);
                         entries.add(ModItems.BLACKTHORN_TICKET);
                         entries.add(ModItems.CIANWOOD_TICKET);

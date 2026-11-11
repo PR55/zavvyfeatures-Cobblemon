@@ -7,6 +7,7 @@
   "cobblemonservertools.midnightconfig.toggleNetherPortal": "Toggle Nether Portal",
   "cobblemonservertools.midnightconfig.toggleEndPortal": "Toggle End Portal Frames",
   "itemgroup.cobblemonservertools.admin_items": "Server Items",
+  "itemgroup.cobblemonservertools.gym_items": "Gym Items",
   "itemgroup.cobblemonservertools.egg_items": "Egg Items",
   "itemgroup.cobblemonservertools.ride_items": "Ride Items",
   "itemgroup.cobblemonservertools.rp_items": "RP Items",
@@ -208,6 +209,7 @@
   "item.cobblemonservertools.mahogany_ticket": "Mahogany City Gym Ticket",
   "item.cobblemonservertools.olivine_ticket": "Olivine City Gym Ticket",
   "item.cobblemonservertools.violet_ticket": "Violet City Gym Ticket",
+  "item.cobblemonservertools.flake_badge": "Special Snowflake Badge",
 
   "cobblemonservertools.mark.zavvyslove": "Zavvy's Love",
   "cobblemonservertools.mark.zavvyslove.title": "%1$s, Zavvy's Grace",

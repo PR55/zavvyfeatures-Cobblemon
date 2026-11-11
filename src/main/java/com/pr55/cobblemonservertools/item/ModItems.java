@@ -143,6 +143,9 @@ public class ModItems {
     public static final Item OLIVINE_TICKET = registerItem("olivine_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
     public static final Item VIOLET_TICKET = registerItem("violet_ticket", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.EPIC)));
 
+    //Event Items
+    public static final Item FLAKE_BADGE = registerItem("flake_badge", new Item(new Item.Settings().fireproof().maxCount(1).rarity(Rarity.UNCOMMON)));
+
     // Armor
 
         // James
