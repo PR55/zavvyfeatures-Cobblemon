@@ -11,7 +11,6 @@ public class ModConfigs {
         Zavvyfeatures.LOGGER.info("Initalizing Configs for mod with an id of "+ Zavvyfeatures.MOD_ID);
 
         MidnightConfig.init(Zavvyfeatures.MOD_ID, GeneralConfig.class);
-        MidnightConfig.init(Zavvyfeatures.MOD_ID, MixinConfig.class);
     }
 
 }

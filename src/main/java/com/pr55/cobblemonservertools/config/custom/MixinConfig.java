@@ -9,6 +9,7 @@ public class MixinConfig extends MidnightConfig {
     public static final String PORTAL_CONTROLS = "portal_controls";
 
     @Comment(category = PORTAL_CONTROLS)public static Comment text4;
+    @Entry(category = PORTAL_CONTROLS) public static boolean toggleNetherPortal = true;
     @Entry(category = PORTAL_CONTROLS) public static boolean toggleEndPortal = true;
 
 }

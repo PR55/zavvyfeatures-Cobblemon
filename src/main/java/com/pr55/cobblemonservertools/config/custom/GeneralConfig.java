@@ -21,4 +21,10 @@ public class GeneralConfig extends MidnightConfig {
     @Entry(category = EGG_TIMERS, name = "Legendary Egg Shiny Rate", isSlider = true, max = 8192, min=2)public static int legendaryEggRate = 32;
     @Entry(category = EGG_TIMERS, name = "Baby Eggs Timer")public static int babyEgg = 14400;
     @Entry(category = EGG_TIMERS, name = "Baby Eggs Shiny Rate", isSlider = true, max = 8192, min=2)public static int babyEggRate = 64;
+    
+    public static final String PORTAL_CONTROLS = "portal_controls";
+
+    @Comment(category = PORTAL_CONTROLS)public static Comment text4;
+    @Entry(category = PORTAL_CONTROLS) public static boolean toggleNetherPortal = true;
+    @Entry(category = PORTAL_CONTROLS) public static boolean toggleEndPortal = true;
 }

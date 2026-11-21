@@ -5,7 +5,9 @@
 	"mixins": [
 		"ExampleMixin",
 		"CustomEffects",
-		"DisableEnderEye"
+		"DisableEnderEye",
+		"NetherFrameReplacement",
+		"lightPortalOverride"
 	],
 	"injectors": {
 		"defaultRequire": 1
